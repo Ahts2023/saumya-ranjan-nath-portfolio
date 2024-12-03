@@ -754,7 +754,38 @@
         <meta name="msapplication-TileImage" content="https://udaychandra.com/wp-content/uploads/2023/01/cropped-6999860-1-270x270.png"/>
     </head>
     <body class="home page-template page-template-custom-templates page-template-home page-template-custom-templateshome-php page page-id-7 wp-embed-responsive is-light-theme no-js singular">
-        <!-- header -->
+        <style>
+        /* Style for WhatsApp button */
+        .whatsapp-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25D366;
+            border-radius: 50%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 60px;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            cursor: pointer;
+        }
+
+        .whatsapp-button img {
+            width: 35px;
+            height: 35px;
+        }
+    </style>
+	    <a
+        class="whatsapp-button"
+        href="https://wa.me/447771796238?text=Hello,%20I'd%20like%20to%20get%20in%20touch%20with%20you!"
+        target="_blank"
+        title="Chat on WhatsApp"
+    >
+        <img src="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="WhatsApp Icon">
+    </a>
+	    <!-- header -->
         <header>
             <div class="menubar">
                 <div class="container">
