@@ -296,3 +296,9 @@ span.page-numbers.current {background: #041e42;color: #fff;}
 .reserch_lftimg {max-width: 50%;padding: 0 30px 30px 0px;height: 520px;width: 100%;display: block;float: left;}
 .reserch_rgtimg {max-width: 50%;padding: 0 0px 30px 30px;height: 520px;width: 100%;display: block;float: right;}
 
+
+@media screen and (max-width:570px){
+  .img-section img{
+    object-position: top !important;
+  }  
+}

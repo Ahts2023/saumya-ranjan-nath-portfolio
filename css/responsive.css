@@ -288,7 +288,7 @@
 	.mainslider .item3 .item_mainimg {margin-bottom: -63px;max-width: 65%;}
 	.mainslider .item4 .item_mainimg {max-width: 55%;margin-bottom: -60px;}
 
-	.rightside_mainimg img {height: 260px;}
+	.rightside_mainimg img {height: 260px;object-position: top;}
 	.rightside_socialmedia li a img {width: 20px;height: 20px;}
 	.rightside_socialmedia {margin: 16px auto;}
 	.rightside_mainbody p {line-height: 24px;font-size: 14px;}
@@ -349,6 +349,8 @@
 @media screen and (max-width: 320px){
 
 }
+
+
 /*
 @media only screen and (max-width: 768px){
 		.teaching table {border: none;}
