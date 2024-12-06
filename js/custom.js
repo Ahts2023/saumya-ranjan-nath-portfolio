@@ -178,3 +178,51 @@ if (window.matchMedia("(max-width: 991px)").matches) {
            }
        });
    });
+
+
+
+
+
+
+
+
+
+   function toggleAchievementsMenu(event) {
+    // Prevent the default link behavior
+    event.preventDefault();
+
+    // Find the submenu associated with the clicked item
+    const parentItem = event.target.closest('.menu-item');
+    const submenu = parentItem.querySelector('.sub-menu');
+
+    // Toggle the submenu's visibility
+    if (submenu) {
+        submenu.style.display = submenu.style.display === 'block' ? 'none' : 'block';
+    }
+}
+
+
+
+
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    // Select all menu items with submenus
+    const menuItems = document.querySelectorAll(".navigation ul.menu li.has-sub > a");
+
+    menuItems.forEach(item => {
+        // Add click event listener to each menu item
+        item.addEventListener("click", function (event) {
+            event.preventDefault(); // Prevent default link behavior
+
+            // Find the submenu related to this menu item
+            const submenu = this.nextElementSibling;
+
+            if (submenu) {
+                // Toggle the 'show' class to display/hide the submenu
+                submenu.classList.toggle("show");
+            }
+        });
+    });
+});

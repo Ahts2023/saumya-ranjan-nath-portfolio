@@ -1,1421 +1,873 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="google-site-verification" content="OM3s2cFC2uHs9ns2mRJrAiaf2qE3hF5B8TvrK8TVuyk"/>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://udaychandra.com/wp-content/themes/Udaychandra/assets/fonts/futura/Futura.css">
-        <link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
-        <link rel="stylesheet" href="/css/owl.carousel.min.css">
-        <link rel="stylesheet" href="/css/owl.theme.default.css">
-        <link rel="stylesheet" href="/css/all.css">
-        <link rel="stylesheet" type="text/css" href="/css/style.css">
-        <link rel="stylesheet" href="/css/responsive.css">
-        <title>Saumya Ranjan Nath</title>
-        <meta name='robots' content='max-image-preview:large'/>
-        <style>
-            img:is([sizes="auto" i], [sizes^="auto," i]) {
-                contain-intrinsic-size: 3000px 1500px
-            }
-        </style>
-        <link rel='dns-prefetch' href='//www.googletagmanager.com'/>
-        <link rel="alternate" type="application/rss+xml" title="Uday Chandra &raquo; Feed" href="https://udaychandra.com/feed/"/>
-        <link rel="alternate" type="application/rss+xml" title="Uday Chandra &raquo; Comments Feed" href="https://udaychandra.com/comments/feed/"/>
-        <script>
-            window._wpemojiSettings = {
-                "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/",
-                "ext": ".png",
-                "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/",
-                "svgExt": ".svg",
-                "source": {
-                    "concatemoji": "https:\/\/udaychandra.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.7.1"
-                }
-            };
-            /*! This file is auto-generated */
-            !function(i, n) {
-                var o, s, e;
-                function c(e) {
-                    try {
-                        var t = {
-                            supportTests: e,
-                            timestamp: (new Date).valueOf()
-                        };
-                        sessionStorage.setItem(o, JSON.stringify(t))
-                    } catch (e) {}
-                }
-                function p(e, t, n) {
-                    e.clearRect(0, 0, e.canvas.width, e.canvas.height),
-                    e.fillText(t, 0, 0);
-                    var t = new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data)
-                      , r = (e.clearRect(0, 0, e.canvas.width, e.canvas.height),
-                    e.fillText(n, 0, 0),
-                    new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data));
-                    return t.every(function(e, t) {
-                        return e === r[t]
-                    })
-                }
-                function u(e, t, n) {
-                    switch (t) {
-                    case "flag":
-                        return n(e, "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f", "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f") ? !1 : !n(e, "\ud83c\uddfa\ud83c\uddf3", "\ud83c\uddfa\u200b\ud83c\uddf3") && !n(e, "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f", "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");
-                    case "emoji":
-                        return !n(e, "\ud83d\udc26\u200d\u2b1b", "\ud83d\udc26\u200b\u2b1b")
-                    }
-                    return !1
-                }
-                function f(e, t, n) {
-                    var r = "undefined" != typeof WorkerGlobalScope && self instanceof WorkerGlobalScope ? new OffscreenCanvas(300,150) : i.createElement("canvas")
-                      , a = r.getContext("2d", {
-                        willReadFrequently: !0
-                    })
-                      , o = (a.textBaseline = "top",
-                    a.font = "600 32px Arial",
-                    {});
-                    return e.forEach(function(e) {
-                        o[e] = t(a, e, n)
-                    }),
-                    o
-                }
-                function t(e) {
-                    var t = i.createElement("script");
-                    t.src = e,
-                    t.defer = !0,
-                    i.head.appendChild(t)
-                }
-                "undefined" != typeof Promise && (o = "wpEmojiSettingsSupports",
-                s = ["flag", "emoji"],
-                n.supports = {
-                    everything: !0,
-                    everythingExceptFlag: !0
-                },
-                e = new Promise(function(e) {
-                    i.addEventListener("DOMContentLoaded", e, {
-                        once: !0
-                    })
-                }
-                ),
-                new Promise(function(t) {
-                    var n = function() {
-                        try {
-                            var e = JSON.parse(sessionStorage.getItem(o));
-                            if ("object" == typeof e && "number" == typeof e.timestamp && (new Date).valueOf() < e.timestamp + 604800 && "object" == typeof e.supportTests)
-                                return e.supportTests
-                        } catch (e) {}
-                        return null
-                    }();
-                    if (!n) {
-                        if ("undefined" != typeof Worker && "undefined" != typeof OffscreenCanvas && "undefined" != typeof URL && URL.createObjectURL && "undefined" != typeof Blob)
-                            try {
-                                var e = "postMessage(" + f.toString() + "(" + [JSON.stringify(s), u.toString(), p.toString()].join(",") + "));"
-                                  , r = new Blob([e],{
-                                    type: "text/javascript"
-                                })
-                                  , a = new Worker(URL.createObjectURL(r),{
-                                    name: "wpTestEmojiSupports"
-                                });
-                                return void (a.onmessage = function(e) {
-                                    c(n = e.data),
-                                    a.terminate(),
-                                    t(n)
-                                }
-                                )
-                            } catch (e) {}
-                        c(n = f(s, u, p))
-                    }
-                    t(n)
-                }
-                ).then(function(e) {
-                    for (var t in e)
-                        n.supports[t] = e[t],
-                        n.supports.everything = n.supports.everything && n.supports[t],
-                        "flag" !== t && (n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && n.supports[t]);
-                    n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && !n.supports.flag,
-                    n.DOMReady = !1,
-                    n.readyCallback = function() {
-                        n.DOMReady = !0
-                    }
-                }).then(function() {
-                    return e
-                }).then(function() {
-                    var e;
-                    n.supports.everything || (n.readyCallback(),
-                    (e = n.source || {}).concatemoji ? t(e.concatemoji) : e.wpemoji && e.twemoji && (t(e.twemoji),
-                    t(e.wpemoji)))
-                }))
-            }((window,
-            document), window._wpemojiSettings);
-        </script>
-        <link rel='stylesheet' id='gtranslate-style-css' href='https://udaychandra.com/wp-content/plugins/gtranslate/gtranslate-style24.css?ver=6.7.1' media='all'/>
-        <style id='wp-emoji-styles-inline-css'>
-            img.wp-smiley, img.emoji {
-                display: inline !important;
-                border: none !important;
-                box-shadow: none !important;
-                height: 1em !important;
-                width: 1em !important;
-                margin: 0 0.07em !important;
-                vertical-align: -0.1em !important;
-                background: none !important;
-                padding: 0 !important;
-            }
-        </style>
-        <link rel='stylesheet' id='wp-block-library-css' href='https://udaychandra.com/wp-includes/css/dist/block-library/style.min.css?ver=6.7.1' media='all'/>
-        <style id='wp-block-library-theme-inline-css'>
-            .wp-block-audio :where(figcaption) {
-                color: #555;
-                font-size: 13px;
-                text-align: center
-            }
-
-            .is-dark-theme .wp-block-audio :where(figcaption) {
-                color: #ffffffa6
-            }
-
-            .wp-block-audio {
-                margin: 0 0 1em
-            }
-
-            .wp-block-code {
-                border: 1px solid #ccc;
-                border-radius: 4px;
-                font-family: Menlo,Consolas,monaco,monospace;
-                padding: .8em 1em
-            }
-
-            .wp-block-embed :where(figcaption) {
-                color: #555;
-                font-size: 13px;
-                text-align: center
-            }
-
-            .is-dark-theme .wp-block-embed :where(figcaption) {
-                color: #ffffffa6
-            }
-
-            .wp-block-embed {
-                margin: 0 0 1em
-            }
-
-            .blocks-gallery-caption {
-                color: #555;
-                font-size: 13px;
-                text-align: center
-            }
-
-            .is-dark-theme .blocks-gallery-caption {
-                color: #ffffffa6
-            }
-
-            :root :where(.wp-block-image figcaption) {
-                color: #555;
-                font-size: 13px;
-                text-align: center
-            }
-
-            .is-dark-theme :root :where(.wp-block-image figcaption) {
-                color: #ffffffa6
-            }
-
-            .wp-block-image {
-                margin: 0 0 1em
-            }
-
-            .wp-block-pullquote {
-                border-bottom: 4px solid;
-                border-top: 4px solid;
-                color: currentColor;
-                margin-bottom: 1.75em
-            }
-
-            .wp-block-pullquote cite,.wp-block-pullquote footer,.wp-block-pullquote__citation {
-                color: currentColor;
-                font-size: .8125em;
-                font-style: normal;
-                text-transform: uppercase
-            }
-
-            .wp-block-quote {
-                border-left: .25em solid;
-                margin: 0 0 1.75em;
-                padding-left: 1em
-            }
-
-            .wp-block-quote cite,.wp-block-quote footer {
-                color: currentColor;
-                font-size: .8125em;
-                font-style: normal;
-                position: relative
-            }
-
-            .wp-block-quote:where(.has-text-align-right) {
-                border-left: none;
-                border-right: .25em solid;
-                padding-left: 0;
-                padding-right: 1em
-            }
-
-            .wp-block-quote:where(.has-text-align-center) {
-                border: none;
-                padding-left: 0
-            }
-
-            .wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote:where(.is-style-plain) {
-                border: none
-            }
-
-            .wp-block-search .wp-block-search__label {
-                font-weight: 700
-            }
-
-            .wp-block-search__button {
-                border: 1px solid #ccc;
-                padding: .375em .625em
-            }
-
-            :where(.wp-block-group.has-background) {
-                padding: 1.25em 2.375em
-            }
-
-            .wp-block-separator.has-css-opacity {
-                opacity: .4
-            }
-
-            .wp-block-separator {
-                border: none;
-                border-bottom: 2px solid;
-                margin-left: auto;
-                margin-right: auto
-            }
-
-            .wp-block-separator.has-alpha-channel-opacity {
-                opacity: 1
-            }
-
-            .wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
-                width: 100px
-            }
-
-            .wp-block-separator.has-background:not(.is-style-dots) {
-                border-bottom: none;
-                height: 1px
-            }
-
-            .wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots) {
-                height: 2px
-            }
-
-            .wp-block-table {
-                margin: 0 0 1em
-            }
-
-            .wp-block-table td,.wp-block-table th {
-                word-break: normal
-            }
-
-            .wp-block-table :where(figcaption) {
-                color: #555;
-                font-size: 13px;
-                text-align: center
-            }
-
-            .is-dark-theme .wp-block-table :where(figcaption) {
-                color: #ffffffa6
-            }
-
-            .wp-block-video :where(figcaption) {
-                color: #555;
-                font-size: 13px;
-                text-align: center
-            }
-
-            .is-dark-theme .wp-block-video :where(figcaption) {
-                color: #ffffffa6
-            }
-
-            .wp-block-video {
-                margin: 0 0 1em
-            }
-
-            :root :where(.wp-block-template-part.has-background) {
-                margin-bottom: 0;
-                margin-top: 0;
-                padding: 1.25em 2.375em
-            }
-        </style>
-        <style id='classic-theme-styles-inline-css'>
-            /*! This file is auto-generated */
-            .wp-block-button__link {
-                color: #fff;
-                background-color: #32373c;
-                border-radius: 9999px;
-                box-shadow: none;
-                text-decoration: none;
-                padding: calc(.667em + 2px) calc(1.333em + 2px);
-                font-size: 1.125em
-            }
-
-            .wp-block-file__button {
-                background: #32373c;
-                color: #fff;
-                text-decoration: none
-            }
-        </style>
-        <style id='global-styles-inline-css'>
-            :root {
-                --wp--preset--aspect-ratio--square: 1;
-                --wp--preset--aspect-ratio--4-3: 4/3;
-                --wp--preset--aspect-ratio--3-4: 3/4;
-                --wp--preset--aspect-ratio--3-2: 3/2;
-                --wp--preset--aspect-ratio--2-3: 2/3;
-                --wp--preset--aspect-ratio--16-9: 16/9;
-                --wp--preset--aspect-ratio--9-16: 9/16;
-                --wp--preset--color--black: #000000;
-                --wp--preset--color--cyan-bluish-gray: #abb8c3;
-                --wp--preset--color--white: #FFFFFF;
-                --wp--preset--color--pale-pink: #f78da7;
-                --wp--preset--color--vivid-red: #cf2e2e;
-                --wp--preset--color--luminous-vivid-orange: #ff6900;
-                --wp--preset--color--luminous-vivid-amber: #fcb900;
-                --wp--preset--color--light-green-cyan: #7bdcb5;
-                --wp--preset--color--vivid-green-cyan: #00d084;
-                --wp--preset--color--pale-cyan-blue: #8ed1fc;
-                --wp--preset--color--vivid-cyan-blue: #0693e3;
-                --wp--preset--color--vivid-purple: #9b51e0;
-                --wp--preset--color--dark-gray: #28303D;
-                --wp--preset--color--gray: #39414D;
-                --wp--preset--color--green: #D1E4DD;
-                --wp--preset--color--blue: #D1DFE4;
-                --wp--preset--color--purple: #D1D1E4;
-                --wp--preset--color--red: #E4D1D1;
-                --wp--preset--color--orange: #E4DAD1;
-                --wp--preset--color--yellow: #EEEADD;
-                --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);
-                --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);
-                --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);
-                --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);
-                --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);
-                --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);
-                --wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);
-                --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);
-                --wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);
-                --wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);
-                --wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);
-                --wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);
-                --wp--preset--gradient--purple-to-yellow: linear-gradient(160deg, #D1D1E4 0%, #EEEADD 100%);
-                --wp--preset--gradient--yellow-to-purple: linear-gradient(160deg, #EEEADD 0%, #D1D1E4 100%);
-                --wp--preset--gradient--green-to-yellow: linear-gradient(160deg, #D1E4DD 0%, #EEEADD 100%);
-                --wp--preset--gradient--yellow-to-green: linear-gradient(160deg, #EEEADD 0%, #D1E4DD 100%);
-                --wp--preset--gradient--red-to-yellow: linear-gradient(160deg, #E4D1D1 0%, #EEEADD 100%);
-                --wp--preset--gradient--yellow-to-red: linear-gradient(160deg, #EEEADD 0%, #E4D1D1 100%);
-                --wp--preset--gradient--purple-to-red: linear-gradient(160deg, #D1D1E4 0%, #E4D1D1 100%);
-                --wp--preset--gradient--red-to-purple: linear-gradient(160deg, #E4D1D1 0%, #D1D1E4 100%);
-                --wp--preset--font-size--small: 18px;
-                --wp--preset--font-size--medium: 20px;
-                --wp--preset--font-size--large: 24px;
-                --wp--preset--font-size--x-large: 42px;
-                --wp--preset--font-size--extra-small: 16px;
-                --wp--preset--font-size--normal: 20px;
-                --wp--preset--font-size--extra-large: 40px;
-                --wp--preset--font-size--huge: 96px;
-                --wp--preset--font-size--gigantic: 144px;
-                --wp--preset--spacing--20: 0.44rem;
-                --wp--preset--spacing--30: 0.67rem;
-                --wp--preset--spacing--40: 1rem;
-                --wp--preset--spacing--50: 1.5rem;
-                --wp--preset--spacing--60: 2.25rem;
-                --wp--preset--spacing--70: 3.38rem;
-                --wp--preset--spacing--80: 5.06rem;
-                --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
-                --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
-                --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
-                --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
-                --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
-            }
-
-            :where(.is-layout-flex) {
-                gap: 0.5em;
-            }
-
-            :where(.is-layout-grid) {
-                gap: 0.5em;
-            }
-
-            body .is-layout-flex {
-                display: flex;
-            }
-
-            .is-layout-flex {
-                flex-wrap: wrap;
-                align-items: center;
-            }
-
-            .is-layout-flex > :is(*, div) {
-                margin: 0;
-            }
-
-            body .is-layout-grid {
-                display: grid;
-            }
-
-            .is-layout-grid > :is(*, div) {
-                margin: 0;
-            }
-
-            :where(.wp-block-columns.is-layout-flex) {
-                gap: 2em;
-            }
-
-            :where(.wp-block-columns.is-layout-grid) {
-                gap: 2em;
-            }
-
-            :where(.wp-block-post-template.is-layout-flex) {
-                gap: 1.25em;
-            }
-
-            :where(.wp-block-post-template.is-layout-grid) {
-                gap: 1.25em;
-            }
-
-            .has-black-color {
-                color: var(--wp--preset--color--black) !important;
-            }
-
-            .has-cyan-bluish-gray-color {
-                color: var(--wp--preset--color--cyan-bluish-gray) !important;
-            }
-
-            .has-white-color {
-                color: var(--wp--preset--color--white) !important;
-            }
-
-            .has-pale-pink-color {
-                color: var(--wp--preset--color--pale-pink) !important;
-            }
-
-            .has-vivid-red-color {
-                color: var(--wp--preset--color--vivid-red) !important;
-            }
-
-            .has-luminous-vivid-orange-color {
-                color: var(--wp--preset--color--luminous-vivid-orange) !important;
-            }
-
-            .has-luminous-vivid-amber-color {
-                color: var(--wp--preset--color--luminous-vivid-amber) !important;
-            }
-
-            .has-light-green-cyan-color {
-                color: var(--wp--preset--color--light-green-cyan) !important;
-            }
-
-            .has-vivid-green-cyan-color {
-                color: var(--wp--preset--color--vivid-green-cyan) !important;
-            }
-
-            .has-pale-cyan-blue-color {
-                color: var(--wp--preset--color--pale-cyan-blue) !important;
-            }
-
-            .has-vivid-cyan-blue-color {
-                color: var(--wp--preset--color--vivid-cyan-blue) !important;
-            }
-
-            .has-vivid-purple-color {
-                color: var(--wp--preset--color--vivid-purple) !important;
-            }
-
-            .has-black-background-color {
-                background-color: var(--wp--preset--color--black) !important;
-            }
-
-            .has-cyan-bluish-gray-background-color {
-                background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
-            }
-
-            .has-white-background-color {
-                background-color: var(--wp--preset--color--white) !important;
-            }
-
-            .has-pale-pink-background-color {
-                background-color: var(--wp--preset--color--pale-pink) !important;
-            }
-
-            .has-vivid-red-background-color {
-                background-color: var(--wp--preset--color--vivid-red) !important;
-            }
-
-            .has-luminous-vivid-orange-background-color {
-                background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
-            }
-
-            .has-luminous-vivid-amber-background-color {
-                background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
-            }
-
-            .has-light-green-cyan-background-color {
-                background-color: var(--wp--preset--color--light-green-cyan) !important;
-            }
-
-            .has-vivid-green-cyan-background-color {
-                background-color: var(--wp--preset--color--vivid-green-cyan) !important;
-            }
-
-            .has-pale-cyan-blue-background-color {
-                background-color: var(--wp--preset--color--pale-cyan-blue) !important;
-            }
-
-            .has-vivid-cyan-blue-background-color {
-                background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
-            }
-
-            .has-vivid-purple-background-color {
-                background-color: var(--wp--preset--color--vivid-purple) !important;
-            }
-
-            .has-black-border-color {
-                border-color: var(--wp--preset--color--black) !important;
-            }
-
-            .has-cyan-bluish-gray-border-color {
-                border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
-            }
-
-            .has-white-border-color {
-                border-color: var(--wp--preset--color--white) !important;
-            }
-
-            .has-pale-pink-border-color {
-                border-color: var(--wp--preset--color--pale-pink) !important;
-            }
-
-            .has-vivid-red-border-color {
-                border-color: var(--wp--preset--color--vivid-red) !important;
-            }
-
-            .has-luminous-vivid-orange-border-color {
-                border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
-            }
-
-            .has-luminous-vivid-amber-border-color {
-                border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
-            }
-
-            .has-light-green-cyan-border-color {
-                border-color: var(--wp--preset--color--light-green-cyan) !important;
-            }
-
-            .has-vivid-green-cyan-border-color {
-                border-color: var(--wp--preset--color--vivid-green-cyan) !important;
-            }
-
-            .has-pale-cyan-blue-border-color {
-                border-color: var(--wp--preset--color--pale-cyan-blue) !important;
-            }
-
-            .has-vivid-cyan-blue-border-color {
-                border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
-            }
-
-            .has-vivid-purple-border-color {
-                border-color: var(--wp--preset--color--vivid-purple) !important;
-            }
-
-            .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
-                background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
-            }
-
-            .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
-                background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
-            }
-
-            .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
-                background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
-            }
-
-            .has-luminous-vivid-orange-to-vivid-red-gradient-background {
-                background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
-            }
-
-            .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
-                background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
-            }
-
-            .has-cool-to-warm-spectrum-gradient-background {
-                background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
-            }
-
-            .has-blush-light-purple-gradient-background {
-                background: var(--wp--preset--gradient--blush-light-purple) !important;
-            }
-
-            .has-blush-bordeaux-gradient-background {
-                background: var(--wp--preset--gradient--blush-bordeaux) !important;
-            }
-
-            .has-luminous-dusk-gradient-background {
-                background: var(--wp--preset--gradient--luminous-dusk) !important;
-            }
-
-            .has-pale-ocean-gradient-background {
-                background: var(--wp--preset--gradient--pale-ocean) !important;
-            }
-
-            .has-electric-grass-gradient-background {
-                background: var(--wp--preset--gradient--electric-grass) !important;
-            }
-
-            .has-midnight-gradient-background {
-                background: var(--wp--preset--gradient--midnight) !important;
-            }
-
-            .has-small-font-size {
-                font-size: var(--wp--preset--font-size--small) !important;
-            }
-
-            .has-medium-font-size {
-                font-size: var(--wp--preset--font-size--medium) !important;
-            }
-
-            .has-large-font-size {
-                font-size: var(--wp--preset--font-size--large) !important;
-            }
-
-            .has-x-large-font-size {
-                font-size: var(--wp--preset--font-size--x-large) !important;
-            }
-
-            :where(.wp-block-post-template.is-layout-flex) {
-                gap: 1.25em;
-            }
-
-            :where(.wp-block-post-template.is-layout-grid) {
-                gap: 1.25em;
-            }
-
-            :where(.wp-block-columns.is-layout-flex) {
-                gap: 2em;
-            }
-
-            :where(.wp-block-columns.is-layout-grid) {
-                gap: 2em;
-            }
-
-            :root :where(.wp-block-pullquote) {
-                font-size: 1.5em;
-                line-height: 1.6;
-            }
-        </style>
-        <link rel='stylesheet' id='contact-form-7-css' href='https://udaychandra.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.0' media='all'/>
-        <link rel='stylesheet' id='ctf_styles-css' href='https://udaychandra.com/wp-content/plugins/custom-twitter-feeds/css/ctf-styles.min.css?ver=2.0.3' media='all'/>
-        <link rel='stylesheet' id='twenty-twenty-one-style-css' href='https://udaychandra.com/wp-content/themes/Udaychandra/style.css?ver=1.7' media='all'/>
-        <link rel='stylesheet' id='twenty-twenty-one-print-style-css' href='https://udaychandra.com/wp-content/themes/Udaychandra/assets/css/print.css?ver=1.7' media='print'/>
-        <script src="https://udaychandra.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
-        <script src="https://udaychandra.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
-        <!-- Google Analytics snippet added by Site Kit -->
-        <script src="https://www.googletagmanager.com/gtag/js?id=UA-28819841-1" id="google_gtagjs-js" async></script>
-        <script id="google_gtagjs-js-after">
-            window.dataLayer = window.dataLayer || [];
-            function gtag() {
-                dataLayer.push(arguments);
-            }
-            gtag('set', 'linker', {
-                "domains": ["udaychandra.com"]
-            });
-            gtag("js", new Date());
-            gtag("set", "developer_id.dZTNiMT", true);
-            gtag("config", "UA-28819841-1", {
-                "anonymize_ip": true
-            });
-            gtag("config", "G-H2H1W47MM2");
-        </script>
-        <!-- End Google Analytics snippet added by Site Kit -->
-        <link rel="https://api.w.org/" href="https://udaychandra.com/wp-json/"/>
-        <link rel="alternate" title="JSON" type="application/json" href="https://udaychandra.com/wp-json/wp/v2/pages/7"/>
-        <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://udaychandra.com/xmlrpc.php?rsd"/>
-        <meta name="generator" content="WordPress 6.7.1"/>
-        <link rel="canonical" href="https://udaychandra.com/"/>
-        <link rel='shortlink' href='https://udaychandra.com/'/>
-        <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://udaychandra.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fudaychandra.com%2F"/>
-        <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://udaychandra.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fudaychandra.com%2F&#038;format=xml"/>
-        <meta name="generator" content="Site Kit by Google 1.93.0"/>
-        <!-- Google AdSense snippet added by Site Kit -->
-        <meta name="google-adsense-platform-account" content="ca-host-pub-2644536267352236">
-        <meta name="google-adsense-platform-domain" content="sitekit.withgoogle.com">
-        <!-- End Google AdSense snippet added by Site Kit -->
-        <link rel="icon" href="https://udaychandra.com/wp-content/uploads/2023/01/cropped-6999860-1-32x32.png" sizes="32x32"/>
-        <link rel="icon" href="https://udaychandra.com/wp-content/uploads/2023/01/cropped-6999860-1-192x192.png" sizes="192x192"/>
-        <link rel="apple-touch-icon" href="https://udaychandra.com/wp-content/uploads/2023/01/cropped-6999860-1-180x180.png"/>
-        <meta name="msapplication-TileImage" content="https://udaychandra.com/wp-content/uploads/2023/01/cropped-6999860-1-270x270.png"/>
-    </head>
-    <body class="home page-template page-template-custom-templates page-template-home page-template-custom-templateshome-php page page-id-7 wp-embed-responsive is-light-theme no-js singular">
-        <style>
-        /* Style for WhatsApp button */
-        .whatsapp-button {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background-color: #25D366;
-            border-radius: 50%;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            width: 60px;
-            height: 60px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            z-index: 1000;
-            cursor: pointer;
-        }
-
-        .whatsapp-button img {
-            width: 35px;
-            height: 35px;
-        }
-    </style>
-	    <a
-        class="whatsapp-button"
-        href="https://wa.me"
-        target="_blank"
-        title="Chat on WhatsApp"
-    >
-        <img src="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="WhatsApp Icon">
-    </a>
-	    <!-- header -->
-        <header>
-            <div class="menubar">
-                <div class="container">
-                    <div class="deskmenu">
-                        <div class="main_logo">
-                            <a href="/">Saumya Ranjan Nath</a>
+<html class="fontawesome-i2svg-active fontawesome-i2svg-complete"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="google-site-verification" content="OM3s2cFC2uHs9ns2mRJrAiaf2qE3hF5B8TvrK8TVuyk">
+    <style type="text/css">:host,:root{--fa-font-solid:normal 900 1em/1 "Font Awesome 6 Solid";--fa-font-regular:normal 400 1em/1 "Font Awesome 6 Regular";--fa-font-light:normal 300 1em/1 "Font Awesome 6 Light";--fa-font-thin:normal 100 1em/1 "Font Awesome 6 Thin";--fa-font-duotone:normal 900 1em/1 "Font Awesome 6 Duotone";--fa-font-brands:normal 400 1em/1 "Font Awesome 6 Brands"}svg:not(:host).svg-inline--fa,svg:not(:root).svg-inline--fa{overflow:visible;box-sizing:content-box}.svg-inline--fa{display:var(--fa-display,inline-block);height:1em;overflow:visible;vertical-align:-.125em}.svg-inline--fa.fa-2xs{vertical-align:.1em}.svg-inline--fa.fa-xs{vertical-align:0}.svg-inline--fa.fa-sm{vertical-align:-.0714285705em}.svg-inline--fa.fa-lg{vertical-align:-.2em}.svg-inline--fa.fa-xl{vertical-align:-.25em}.svg-inline--fa.fa-2xl{vertical-align:-.3125em}.svg-inline--fa.fa-pull-left{margin-right:var(--fa-pull-margin,.3em);width:auto}.svg-inline--fa.fa-pull-right{margin-left:var(--fa-pull-margin,.3em);width:auto}.svg-inline--fa.fa-li{width:var(--fa-li-width,2em);top:.25em}.svg-inline--fa.fa-fw{width:var(--fa-fw-width,1.25em)}.fa-layers svg.svg-inline--fa{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.fa-layers-counter,.fa-layers-text{display:inline-block;position:absolute;text-align:center}.fa-layers{display:inline-block;height:1em;position:relative;text-align:center;vertical-align:-.125em;width:1em}.fa-layers svg.svg-inline--fa{-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-text{left:50%;top:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter{background-color:var(--fa-counter-background-color,#ff253a);border-radius:var(--fa-counter-border-radius,1em);box-sizing:border-box;color:var(--fa-inverse,#fff);line-height:var(--fa-counter-line-height,1);max-width:var(--fa-counter-max-width,5em);min-width:var(--fa-counter-min-width,1.5em);overflow:hidden;padding:var(--fa-counter-padding,.25em .5em);right:var(--fa-right,0);text-overflow:ellipsis;top:var(--fa-top,0);-webkit-transform:scale(var(--fa-counter-scale,.25));transform:scale(var(--fa-counter-scale,.25));-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-bottom-right{bottom:var(--fa-bottom,0);right:var(--fa-right,0);top:auto;-webkit-transform:scale(var(--fa-layers-scale,.25));transform:scale(var(--fa-layers-scale,.25));-webkit-transform-origin:bottom right;transform-origin:bottom right}.fa-layers-bottom-left{bottom:var(--fa-bottom,0);left:var(--fa-left,0);right:auto;top:auto;-webkit-transform:scale(var(--fa-layers-scale,.25));transform:scale(var(--fa-layers-scale,.25));-webkit-transform-origin:bottom left;transform-origin:bottom left}.fa-layers-top-right{top:var(--fa-top,0);right:var(--fa-right,0);-webkit-transform:scale(var(--fa-layers-scale,.25));transform:scale(var(--fa-layers-scale,.25));-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-top-left{left:var(--fa-left,0);right:auto;top:var(--fa-top,0);-webkit-transform:scale(var(--fa-layers-scale,.25));transform:scale(var(--fa-layers-scale,.25));-webkit-transform-origin:top left;transform-origin:top left}.fa-1x{font-size:1em}.fa-2x{font-size:2em}.fa-3x{font-size:3em}.fa-4x{font-size:4em}.fa-5x{font-size:5em}.fa-6x{font-size:6em}.fa-7x{font-size:7em}.fa-8x{font-size:8em}.fa-9x{font-size:9em}.fa-10x{font-size:10em}.fa-2xs{font-size:.625em;line-height:.1em;vertical-align:.225em}.fa-xs{font-size:.75em;line-height:.0833333337em;vertical-align:.125em}.fa-sm{font-size:.875em;line-height:.0714285718em;vertical-align:.0535714295em}.fa-lg{font-size:1.25em;line-height:.05em;vertical-align:-.075em}.fa-xl{font-size:1.5em;line-height:.0416666682em;vertical-align:-.125em}.fa-2xl{font-size:2em;line-height:.03125em;vertical-align:-.1875em}.fa-fw{text-align:center;width:1.25em}.fa-ul{list-style-type:none;margin-left:var(--fa-li-margin,2.5em);padding-left:0}.fa-ul>li{position:relative}.fa-li{left:calc(var(--fa-li-width,2em) * -1);position:absolute;text-align:center;width:var(--fa-li-width,2em);line-height:inherit}.fa-border{border-color:var(--fa-border-color,#eee);border-radius:var(--fa-border-radius,.1em);border-style:var(--fa-border-style,solid);border-width:var(--fa-border-width,.08em);padding:var(--fa-border-padding,.2em .25em .15em)}.fa-pull-left{float:left;margin-right:var(--fa-pull-margin,.3em)}.fa-pull-right{float:right;margin-left:var(--fa-pull-margin,.3em)}.fa-beat{-webkit-animation-name:fa-beat;animation-name:fa-beat;-webkit-animation-delay:var(--fa-animation-delay,0);animation-delay:var(--fa-animation-delay,0);-webkit-animation-direction:var(--fa-animation-direction,normal);animation-direction:var(--fa-animation-direction,normal);-webkit-animation-duration:var(--fa-animation-duration,1s);animation-duration:var(--fa-animation-duration,1s);-webkit-animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-iteration-count:var(--fa-animation-iteration-count,infinite);-webkit-animation-timing-function:var(--fa-animation-timing,ease-in-out);animation-timing-function:var(--fa-animation-timing,ease-in-out)}.fa-bounce{-webkit-animation-name:fa-bounce;animation-name:fa-bounce;-webkit-animation-delay:var(--fa-animation-delay,0);animation-delay:var(--fa-animation-delay,0);-webkit-animation-direction:var(--fa-animation-direction,normal);animation-direction:var(--fa-animation-direction,normal);-webkit-animation-duration:var(--fa-animation-duration,1s);animation-duration:var(--fa-animation-duration,1s);-webkit-animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-iteration-count:var(--fa-animation-iteration-count,infinite);-webkit-animation-timing-function:var(--fa-animation-timing,cubic-bezier(.28,.84,.42,1));animation-timing-function:var(--fa-animation-timing,cubic-bezier(.28,.84,.42,1))}.fa-fade{-webkit-animation-name:fa-fade;animation-name:fa-fade;-webkit-animation-delay:var(--fa-animation-delay,0);animation-delay:var(--fa-animation-delay,0);-webkit-animation-direction:var(--fa-animation-direction,normal);animation-direction:var(--fa-animation-direction,normal);-webkit-animation-duration:var(--fa-animation-duration,1s);animation-duration:var(--fa-animation-duration,1s);-webkit-animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-iteration-count:var(--fa-animation-iteration-count,infinite);-webkit-animation-timing-function:var(--fa-animation-timing,cubic-bezier(.4,0,.6,1));animation-timing-function:var(--fa-animation-timing,cubic-bezier(.4,0,.6,1))}.fa-beat-fade{-webkit-animation-name:fa-beat-fade;animation-name:fa-beat-fade;-webkit-animation-delay:var(--fa-animation-delay,0);animation-delay:var(--fa-animation-delay,0);-webkit-animation-direction:var(--fa-animation-direction,normal);animation-direction:var(--fa-animation-direction,normal);-webkit-animation-duration:var(--fa-animation-duration,1s);animation-duration:var(--fa-animation-duration,1s);-webkit-animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-iteration-count:var(--fa-animation-iteration-count,infinite);-webkit-animation-timing-function:var(--fa-animation-timing,cubic-bezier(.4,0,.6,1));animation-timing-function:var(--fa-animation-timing,cubic-bezier(.4,0,.6,1))}.fa-flip{-webkit-animation-name:fa-flip;animation-name:fa-flip;-webkit-animation-delay:var(--fa-animation-delay,0);animation-delay:var(--fa-animation-delay,0);-webkit-animation-direction:var(--fa-animation-direction,normal);animation-direction:var(--fa-animation-direction,normal);-webkit-animation-duration:var(--fa-animation-duration,1s);animation-duration:var(--fa-animation-duration,1s);-webkit-animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-iteration-count:var(--fa-animation-iteration-count,infinite);-webkit-animation-timing-function:var(--fa-animation-timing,ease-in-out);animation-timing-function:var(--fa-animation-timing,ease-in-out)}.fa-shake{-webkit-animation-name:fa-shake;animation-name:fa-shake;-webkit-animation-delay:var(--fa-animation-delay,0);animation-delay:var(--fa-animation-delay,0);-webkit-animation-direction:var(--fa-animation-direction,normal);animation-direction:var(--fa-animation-direction,normal);-webkit-animation-duration:var(--fa-animation-duration,1s);animation-duration:var(--fa-animation-duration,1s);-webkit-animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-iteration-count:var(--fa-animation-iteration-count,infinite);-webkit-animation-timing-function:var(--fa-animation-timing,linear);animation-timing-function:var(--fa-animation-timing,linear)}.fa-spin{-webkit-animation-name:fa-spin;animation-name:fa-spin;-webkit-animation-delay:var(--fa-animation-delay,0);animation-delay:var(--fa-animation-delay,0);-webkit-animation-direction:var(--fa-animation-direction,normal);animation-direction:var(--fa-animation-direction,normal);-webkit-animation-duration:var(--fa-animation-duration,2s);animation-duration:var(--fa-animation-duration,2s);-webkit-animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-iteration-count:var(--fa-animation-iteration-count,infinite);-webkit-animation-timing-function:var(--fa-animation-timing,linear);animation-timing-function:var(--fa-animation-timing,linear)}.fa-spin-reverse{--fa-animation-direction:reverse}.fa-pulse,.fa-spin-pulse{-webkit-animation-name:fa-spin;animation-name:fa-spin;-webkit-animation-direction:var(--fa-animation-direction,normal);animation-direction:var(--fa-animation-direction,normal);-webkit-animation-duration:var(--fa-animation-duration,1s);animation-duration:var(--fa-animation-duration,1s);-webkit-animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-iteration-count:var(--fa-animation-iteration-count,infinite);-webkit-animation-timing-function:var(--fa-animation-timing,steps(8));animation-timing-function:var(--fa-animation-timing,steps(8))}@media (prefers-reduced-motion:reduce){.fa-beat,.fa-beat-fade,.fa-bounce,.fa-fade,.fa-flip,.fa-pulse,.fa-shake,.fa-spin,.fa-spin-pulse{-webkit-animation-delay:-1ms;animation-delay:-1ms;-webkit-animation-duration:1ms;animation-duration:1ms;-webkit-animation-iteration-count:1;animation-iteration-count:1;transition-delay:0s;transition-duration:0s}}@-webkit-keyframes fa-beat{0%,90%{-webkit-transform:scale(1);transform:scale(1)}45%{-webkit-transform:scale(var(--fa-beat-scale,1.25));transform:scale(var(--fa-beat-scale,1.25))}}@keyframes fa-beat{0%,90%{-webkit-transform:scale(1);transform:scale(1)}45%{-webkit-transform:scale(var(--fa-beat-scale,1.25));transform:scale(var(--fa-beat-scale,1.25))}}@-webkit-keyframes fa-bounce{0%{-webkit-transform:scale(1,1) translateY(0);transform:scale(1,1) translateY(0)}10%{-webkit-transform:scale(var(--fa-bounce-start-scale-x,1.1),var(--fa-bounce-start-scale-y,.9)) translateY(0);transform:scale(var(--fa-bounce-start-scale-x,1.1),var(--fa-bounce-start-scale-y,.9)) translateY(0)}30%{-webkit-transform:scale(var(--fa-bounce-jump-scale-x,.9),var(--fa-bounce-jump-scale-y,1.1)) translateY(var(--fa-bounce-height,-.5em));transform:scale(var(--fa-bounce-jump-scale-x,.9),var(--fa-bounce-jump-scale-y,1.1)) translateY(var(--fa-bounce-height,-.5em))}50%{-webkit-transform:scale(var(--fa-bounce-land-scale-x,1.05),var(--fa-bounce-land-scale-y,.95)) translateY(0);transform:scale(var(--fa-bounce-land-scale-x,1.05),var(--fa-bounce-land-scale-y,.95)) translateY(0)}57%{-webkit-transform:scale(1,1) translateY(var(--fa-bounce-rebound,-.125em));transform:scale(1,1) translateY(var(--fa-bounce-rebound,-.125em))}64%{-webkit-transform:scale(1,1) translateY(0);transform:scale(1,1) translateY(0)}100%{-webkit-transform:scale(1,1) translateY(0);transform:scale(1,1) translateY(0)}}@keyframes fa-bounce{0%{-webkit-transform:scale(1,1) translateY(0);transform:scale(1,1) translateY(0)}10%{-webkit-transform:scale(var(--fa-bounce-start-scale-x,1.1),var(--fa-bounce-start-scale-y,.9)) translateY(0);transform:scale(var(--fa-bounce-start-scale-x,1.1),var(--fa-bounce-start-scale-y,.9)) translateY(0)}30%{-webkit-transform:scale(var(--fa-bounce-jump-scale-x,.9),var(--fa-bounce-jump-scale-y,1.1)) translateY(var(--fa-bounce-height,-.5em));transform:scale(var(--fa-bounce-jump-scale-x,.9),var(--fa-bounce-jump-scale-y,1.1)) translateY(var(--fa-bounce-height,-.5em))}50%{-webkit-transform:scale(var(--fa-bounce-land-scale-x,1.05),var(--fa-bounce-land-scale-y,.95)) translateY(0);transform:scale(var(--fa-bounce-land-scale-x,1.05),var(--fa-bounce-land-scale-y,.95)) translateY(0)}57%{-webkit-transform:scale(1,1) translateY(var(--fa-bounce-rebound,-.125em));transform:scale(1,1) translateY(var(--fa-bounce-rebound,-.125em))}64%{-webkit-transform:scale(1,1) translateY(0);transform:scale(1,1) translateY(0)}100%{-webkit-transform:scale(1,1) translateY(0);transform:scale(1,1) translateY(0)}}@-webkit-keyframes fa-fade{50%{opacity:var(--fa-fade-opacity,.4)}}@keyframes fa-fade{50%{opacity:var(--fa-fade-opacity,.4)}}@-webkit-keyframes fa-beat-fade{0%,100%{opacity:var(--fa-beat-fade-opacity,.4);-webkit-transform:scale(1);transform:scale(1)}50%{opacity:1;-webkit-transform:scale(var(--fa-beat-fade-scale,1.125));transform:scale(var(--fa-beat-fade-scale,1.125))}}@keyframes fa-beat-fade{0%,100%{opacity:var(--fa-beat-fade-opacity,.4);-webkit-transform:scale(1);transform:scale(1)}50%{opacity:1;-webkit-transform:scale(var(--fa-beat-fade-scale,1.125));transform:scale(var(--fa-beat-fade-scale,1.125))}}@-webkit-keyframes fa-flip{50%{-webkit-transform:rotate3d(var(--fa-flip-x,0),var(--fa-flip-y,1),var(--fa-flip-z,0),var(--fa-flip-angle,-180deg));transform:rotate3d(var(--fa-flip-x,0),var(--fa-flip-y,1),var(--fa-flip-z,0),var(--fa-flip-angle,-180deg))}}@keyframes fa-flip{50%{-webkit-transform:rotate3d(var(--fa-flip-x,0),var(--fa-flip-y,1),var(--fa-flip-z,0),var(--fa-flip-angle,-180deg));transform:rotate3d(var(--fa-flip-x,0),var(--fa-flip-y,1),var(--fa-flip-z,0),var(--fa-flip-angle,-180deg))}}@-webkit-keyframes fa-shake{0%{-webkit-transform:rotate(-15deg);transform:rotate(-15deg)}4%{-webkit-transform:rotate(15deg);transform:rotate(15deg)}24%,8%{-webkit-transform:rotate(-18deg);transform:rotate(-18deg)}12%,28%{-webkit-transform:rotate(18deg);transform:rotate(18deg)}16%{-webkit-transform:rotate(-22deg);transform:rotate(-22deg)}20%{-webkit-transform:rotate(22deg);transform:rotate(22deg)}32%{-webkit-transform:rotate(-12deg);transform:rotate(-12deg)}36%{-webkit-transform:rotate(12deg);transform:rotate(12deg)}100%,40%{-webkit-transform:rotate(0);transform:rotate(0)}}@keyframes fa-shake{0%{-webkit-transform:rotate(-15deg);transform:rotate(-15deg)}4%{-webkit-transform:rotate(15deg);transform:rotate(15deg)}24%,8%{-webkit-transform:rotate(-18deg);transform:rotate(-18deg)}12%,28%{-webkit-transform:rotate(18deg);transform:rotate(18deg)}16%{-webkit-transform:rotate(-22deg);transform:rotate(-22deg)}20%{-webkit-transform:rotate(22deg);transform:rotate(22deg)}32%{-webkit-transform:rotate(-12deg);transform:rotate(-12deg)}36%{-webkit-transform:rotate(12deg);transform:rotate(12deg)}100%,40%{-webkit-transform:rotate(0);transform:rotate(0)}}@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.fa-rotate-90{-webkit-transform:rotate(90deg);transform:rotate(90deg)}.fa-rotate-180{-webkit-transform:rotate(180deg);transform:rotate(180deg)}.fa-rotate-270{-webkit-transform:rotate(270deg);transform:rotate(270deg)}.fa-flip-horizontal{-webkit-transform:scale(-1,1);transform:scale(-1,1)}.fa-flip-vertical{-webkit-transform:scale(1,-1);transform:scale(1,-1)}.fa-flip-both,.fa-flip-horizontal.fa-flip-vertical{-webkit-transform:scale(-1,-1);transform:scale(-1,-1)}.fa-rotate-by{-webkit-transform:rotate(var(--fa-rotate-angle,none));transform:rotate(var(--fa-rotate-angle,none))}.fa-stack{display:inline-block;vertical-align:middle;height:2em;position:relative;width:2.5em}.fa-stack-1x,.fa-stack-2x{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0;z-index:var(--fa-stack-z-index,auto)}.svg-inline--fa.fa-stack-1x{height:1em;width:1.25em}.svg-inline--fa.fa-stack-2x{height:2em;width:2.5em}.fa-inverse{color:var(--fa-inverse,#fff)}.fa-sr-only,.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border-width:0}.fa-sr-only-focusable:not(:focus),.sr-only-focusable:not(:focus){position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border-width:0}.svg-inline--fa .fa-primary{fill:var(--fa-primary-color,currentColor);opacity:var(--fa-primary-opacity,1)}.svg-inline--fa .fa-secondary{fill:var(--fa-secondary-color,currentColor);opacity:var(--fa-secondary-opacity,.4)}.svg-inline--fa.fa-swap-opacity .fa-primary{opacity:var(--fa-secondary-opacity,.4)}.svg-inline--fa.fa-swap-opacity .fa-secondary{opacity:var(--fa-primary-opacity,1)}.svg-inline--fa mask .fa-primary,.svg-inline--fa mask .fa-secondary{fill:#000}.fa-duotone.fa-inverse,.fad.fa-inverse{color:var(--fa-inverse,#fff)}</style><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://udaychandra.com/wp-content/themes/Udaychandra/assets/fonts/futura/Futura.css">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/css/owl.theme.default.css">
+    <link rel="stylesheet" href="/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <title>Saumya Ranjan Nath</title>
+    <meta name="robots" content="max-image-preview:large">  
+    <!-- WhatsApp button -->
+    <!-- <a href="https://wa.me/YOUR_PHONE_NUMBER" class="whatsapp-button" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Icon">
+    </a> -->
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="menubar">
+            <div class="container">
+                <div class="deskmenu">
+                    <div class="main_logo">
+                        <a href="">Saumya Ranjan Nath</a>
+                    </div>
+                    <div class="main_menu">
+                        <div>
+                            <button class="navigation-open">
+                                <span></span>
+                            </button>
                         </div>
-                        <div class="main_menu">
-                            <div>
-                                <button class="navigation-open">
-                                    <span></span>
-                                </button>
+                        <div class="navigation">
+                            <button class="navigation-close">
+                                <span></span>
+                            </button>
+                            <ul id="menu-header" class="menu">
+                                <li id="menu-item-78" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-7 current_page_item menu-item-78">
+                                    <a href="index.html" aria-current="page">Home</a>
+                        
+                                </li>
+                                <li id="menu-item-81" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-81">
+                                    <a href="researcher.html">Research</a>
+                                </li>
+                                <!-- <li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-80">
+                                    <a href="#" class="menu-link achievements-toggle" onclick="toggleAchievementsMenu(event)">Achievements</a>
+                                    <ul class="sub-menu" style="display: none;">
+                                        <li id="menu-item-393" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-393">
+                                            <a href="https://www.vitae.ac.uk/researchers-professional-development/about-the-vitae-researcher-development-framework/methodology-report-understanding-the-experience-of-postgraduate-researchers-pgrs-using-the-vitae-researcher-development-framework-rdf-at-uk-universities">Methodology Report</a>
+                                        </li>
+                                        <li id="menu-item-394" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-394">
+                                            <a href="https://www.sussex.ac.uk/globalincomeinequality/">Global Inequality</a>
+                                        </li>
+                                        <li id="menu-item-395" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-395">
+                                            <a href="https://orientblackswan.com/details?id=9789352879311">Orient BlackSwan Publisher</a>
+                                        </li>
+                                        <li id="menu-item-396" class="nav-item menu-item menu-item-type-custom menu-item-object-custom menu-item-396">
+                                            <a href="https://www.downtoearth.org.in/mining/illegal-and-unfair-acquisition-of-mining-land-in-korba-54627">Illegal & Unfair Acquisition</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-80">
+                                    <a href="#" class="menu-link achievements-toggle" onclick="toggleAchievementsMenu(event)">Certification</a>
+                                    <ul class="sub-menu" style="display: none;">
+                                        <li id="menu-item-393" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-393">
+                                            <a href="https://www.vitae.ac.uk/researchers-professional-development/about-the-vitae-researcher-development-framework/methodology-report-understanding-the-experience-of-postgraduate-researchers-pgrs-using-the-vitae-researcher-development-framework-rdf-at-uk-universities">Methodology Report</a>
+                                        </li>
+                                        <li id="menu-item-394" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-394">
+                                            <a href="https://www.sussex.ac.uk/globalincomeinequality/">Annual Conference</a>
+                                        </li>
+                                        <li id="menu-item-395" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-395">
+                                            <a href="https://orientblackswan.com/details?id=9789352879311">Vienna Anthropology</a>
+                                        </li>
+                                        <li id="menu-item-396" class="nav-item menu-item menu-item-type-custom menu-item-object-custom menu-item-396">
+                                            <a href="https://www.downtoearth.org.in/mining/illegal-and-unfair-acquisition-of-mining-land-in-korba-54627">Letter of invitation</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+
+
+                                <li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-80">
+                                    <a href="#" class="menu-link achievements-toggle" onclick="toggleAchievementsMenu(event)">Teaching</a>
+                                    <ul class="sub-menu" style="display: none;">
+                                        <li id="menu-item-393" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-393">
+                                            <a href="https://www.vitae.ac.uk/researchers-professional-development/about-the-vitae-researcher-development-framework/methodology-report-understanding-the-experience-of-postgraduate-researchers-pgrs-using-the-vitae-researcher-development-framework-rdf-at-uk-universities">Methodology Report</a>
+                                        </li>
+                                        <li id="menu-item-394" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-394">
+                                            <a href="https://www.sussex.ac.uk/globalincomeinequality/">Annual Conference</a>
+                                        </li>
+                                        <li id="menu-item-395" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-395">
+                                            <a href="https://orientblackswan.com/details?id=9789352879311">Vienna Anthropology</a>
+                                        </li>
+                                    </ul>
+                                </li> -->
+                                
+                                <li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-80">
+                                    <a href="">Achievements</a>
+                                    <button class="sub-menu-toggle" aria-expanded="false" onClick="twentytwentyoneExpandSubMenu(this)">
+                                        <span class="icon-plus">
+                                            <svg class="svg-icon" width="18" height="18" aria-hidden="true" role="img" focusable="false" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M18 11.2h-5.2V6h-1.6v5.2H6v1.6h5.2V18h1.6v-5.2H18z" fill="currentColor"/>
+                                            </svg>
+                                        </span>
+                                        <span class="icon-minus">
+                                            <svg class="svg-icon" width="18" height="18" aria-hidden="true" role="img" focusable="false" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M6 11h12v2H6z" fill="currentColor"/>
+                                            </svg>
+                                        </span>
+                                        <span class="screen-reader-text">Open menu</span>
+                                    </button>
+                                    <ul class="sub-menu">
+                                        <li id="menu-item-393" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-393">
+                                            <a href="https://www.vitae.ac.uk/researchers-professional-development/about-the-vitae-researcher-development-framework/methodology-report-understanding-the-experience-of-postgraduate-researchers-pgrs-using-the-vitae-researcher-development-framework-rdf-at-uk-universities">Methodology Report</a>
+                                        </li>
+                                        <li id="menu-item-394" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-394">
+                                            <a href="https://www.sussex.ac.uk/globalincomeinequality/">Global Inequality</a>
+                                        </li>
+                                        <li id="menu-item-395" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-395">
+                                            <a href="https://orientblackswan.com/details?id=9789352879311">Orient BlackSwan Publisher</a>
+                                        </li>
+                                        <li id="menu-item-396" class="nav-item menu-item menu-item-type-custom menu-item-object-custom menu-item-396">
+                                            <a href="https://www.downtoearth.org.in/mining/illegal-and-unfair-acquisition-of-mining-land-in-korba-54627">Illegal&Unfair Acquisition</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-80">
+                                    <a href="">Certification</a>
+                                    <button class="sub-menu-toggle" aria-expanded="false" onClick="twentytwentyoneExpandSubMenu(this)">
+                                        <span class="icon-plus">
+                                            <svg class="svg-icon" width="18" height="18" aria-hidden="true" role="img" focusable="false" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M18 11.2h-5.2V6h-1.6v5.2H6v1.6h5.2V18h1.6v-5.2H18z" fill="currentColor"/>
+                                            </svg>
+                                        </span>
+                                        <span class="icon-minus">
+                                            <svg class="svg-icon" width="18" height="18" aria-hidden="true" role="img" focusable="false" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M6 11h12v2H6z" fill="currentColor"/>
+                                            </svg>
+                                        </span>
+                                        <span class="screen-reader-text">Open menu</span>
+                                    </button>
+                                    <ul class="sub-menu">
+                                        <li id="menu-item-393" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-393">
+                                            <a href="Certificate_Annual Conf_2022_Saumya Ranjan Nath (1).pdf">Annual Conference</a>
+                                        </li>
+                                        <li id="menu-item-394" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-394">
+                                            <a href="VANDA_TN Bestaetigung_NATH.pdf">Vienna Anthropology</a>
+                                        </li>
+                                        <li id="menu-item-395" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-395">
+                                            <a href="Letter of Invitation_Saumya Nath_GMU EDRS 814_7.11.2024.pdf">Letter of invitation</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li id="menu-item-81" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-81">
+                                    <a href="teaching.html">Teaching</a>
+                                </li>
+                                <!-- <li id="menu-item-991" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-991">
+                                    <a href="https://udaychandra.com/teaching/">Teaching</a>
+                                    <button class="sub-menu-toggle" aria-expanded="false" onClick="twentytwentyoneExpandSubMenu(this)">
+                                        <span class="icon-plus">
+                                            <svg class="svg-icon" width="18" height="18" aria-hidden="true" role="img" focusable="false" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M18 11.2h-5.2V6h-1.6v5.2H6v1.6h5.2V18h1.6v-5.2H18z" fill="currentColor"/>
+                                            </svg>
+                                        </span>
+                                        <span class="icon-minus">
+                                            <svg class="svg-icon" width="18" height="18" aria-hidden="true" role="img" focusable="false" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M6 11h12v2H6z" fill="currentColor"/>
+                                            </svg>
+                                        </span>
+                                        <span class="screen-reader-text">Open menu</span>
+                                    </button>
+                                    <ul class="sub-menu">
+                                        <li id="menu-item-585" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-585">
+                                            <a href="https://udaychandra.com/courses/">Courses</a>
+                                        </li>
+                                        <li id="menu-item-584" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-584">
+                                            <a href="https://udaychandra.com/mentees/">Mentees</a>
+                                        </li>
+                                    </ul>
+                                </li> -->
+                                <li id="menu-item-79" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-79">
+                                    <a href="CV.html">CV</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="main_language">
+                        <!-- GTranslate: https://gtranslate.io/ -->
+                        <style>
+                            .switcher {
+                                font-family: Arial;
+                                font-size: 12pt;
+                                text-align: left;
+                                cursor: pointer;
+                                overflow: hidden;
+                                width: 173px;
+                                line-height: 17px;
+                            }
+
+                            .switcher a {
+                                text-decoration: none;
+                                display: block;
+                                font-size: 12pt;
+                                -webkit-box-sizing: content-box;
+                                -moz-box-sizing: content-box;
+                                box-sizing: content-box;
+                            }
+
+                            .switcher a img {
+                                vertical-align: middle;
+                                display: inline;
+                                border: 0;
+                                padding: 0;
+                                margin: 0;
+                                opacity: 0.8;
+                            }
+
+                            .switcher a:hover img {
+                                opacity: 1;
+                            }
+
+                            .switcher .selected {
+                                background: #fff linear-gradient(180deg, #efefef 0%, #fff 70%);
+                                position: relative;
+                                z-index: 9999;
+                            }
+
+                            .switcher .selected a {
+                                border: 1px solid #ccc;
+                                color: #666;
+                                padding: 3px 5px;
+                                width: 161px;
+                            }
+
+                            .switcher .selected a:after {
+                                height: 24px;
+                                display: inline-block;
+                                position: absolute;
+                                right: 10px;
+                                width: 15px;
+                                background-position: 50%;
+                                background-size: 11px;
+                                background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 285 285'><path d='M282 76.5l-14.2-14.3a9 9 0 0 0-13.1 0L142.5 174.4 30.3 62.2a9 9 0 0 0-13.2 0L3 76.5a9 9 0 0 0 0 13.1l133 133a9 9 0 0 0 13.1 0l133-133a9 9 0 0 0 0-13z' style='fill:%23666'/></svg>");
+                                background-repeat: no-repeat;
+                                content: ""!important;
+                                transition: all .2s;
+                            }
+
+                            .switcher .selected a.open:after {
+                                -webkit-transform: rotate(-180deg);
+                                transform: rotate(-180deg);
+                            }
+
+                            .switcher .selected a:hover {
+                                background: #fff
+                            }
+
+                            .switcher .option {
+                                position: relative;
+                                z-index: 9998;
+                                border-left: 1px solid #ccc;
+                                border-right: 1px solid #ccc;
+                                border-bottom: 1px solid #ccc;
+                                background-color: #eee;
+                                display: none;
+                                width: 171px;
+                                max-height: 198px;
+                                -webkit-box-sizing: content-box;
+                                -moz-box-sizing: content-box;
+                                box-sizing: content-box;
+                                overflow-y: auto;
+                                overflow-x: hidden;
+                            }
+
+                            .switcher .option a {
+                                color: #000;
+                                padding: 3px 5px;
+                            }
+
+                            .switcher .option a:hover {
+                                background: #fff;
+                            }
+
+                            .switcher .option a.selected {
+                                background: #fff;
+                            }
+
+                            #selected_lang_name {
+                                float: none;
+                            }
+
+                            .l_name {
+                                float: none !important;
+                                margin: 0;
+                            }
+
+                            .switcher .option::-webkit-scrollbar-track {
+                                -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.3);
+                                border-radius: 5px;
+                                background-color: #f5f5f5;
+                            }
+
+                            .switcher .option::-webkit-scrollbar {
+                                width: 5px;
+                            }
+
+                            .switcher .option::-webkit-scrollbar-thumb {
+                                border-radius: 5px;
+                                -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,.3);
+                                background-color: #888;
+                            }
+                        </style>
+                        <div class="switcher notranslate">
+                            <div class="selected">
+                                <a href="#" onclick="return false;">
+                                    <img src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/en-us.png" height="24" width="24" alt="en">English
+                                </a>
                             </div>
-                            <div class="navigation">
-                                <button class="navigation-close">
-                                    <span></span>
-                                </button>
-                                <ul id="menu-header" class="menu">
-                                    <li id="menu-item-78" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-7 current_page_item menu-item-78">
-                                        <a href="index.html" aria-current="page">Home</a>
+                            <div class="option">
+                                <a href="#" onclick="doGTranslate('en|ar');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Arabic" class="nturl">
+                                    <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/ar.png" height="24" width="24" alt="ar">Arabic
+                                </a>
+                                <a href="#" onclick="doGTranslate('en|zh-CN');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Chinese (Simplified)" class="nturl">
+                                    <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/zh-CN.png" height="24" width="24" alt="zh-CN">Chinese (Simplified)
+                                </a>
+                                <a href="#" onclick="doGTranslate('en|nl');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Dutch" class="nturl">
+                                    <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/nl.png" height="24" width="24" alt="nl">Dutch
+                                </a>
+                                <a href="#" onclick="doGTranslate('en|en');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="English" class="nturl selected">
+                                    <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/en-us.png" height="24" width="24" alt="en">English
+                                </a>
+                                <a href="#" onclick="doGTranslate('en|fr');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="French" class="nturl">
+                                    <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/fr.png" height="24" width="24" alt="fr">French
+                                </a>
+                                <a href="#" onclick="doGTranslate('en|de');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="German" class="nturl">
+                                    <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/de.png" height="24" width="24" alt="de">German
+                                </a>
+                                <a href="#" onclick="doGTranslate('en|it');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Italian" class="nturl">
+                                    <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/it.png" height="24" width="24" alt="it">Italian
+                                </a>
+                                <a href="#" onclick="doGTranslate('en|pt');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Portuguese" class="nturl">
+                                    <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/pt.png" height="24" width="24" alt="pt">Portuguese
+                                </a>
+                                <a href="#" onclick="doGTranslate('en|ru');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Russian" class="nturl">
+                                    <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/ru.png" height="24" width="24" alt="ru">Russian
+                                </a>
+                                <a href="#" onclick="doGTranslate('en|es');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Spanish" class="nturl">
+                                    <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/es.png" height="24" width="24" alt="es">Spanish
+                                </a>
+                                <a href="#" onclick="doGTranslate('en|vi');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Vietnamese" class="nturl">
+                                    <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/vi.png" height="24" width="24" alt="vi">Vietnamese
+                                </a>
+                                <a href="#" onclick="doGTranslate('en|sw');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Swahili" class="nturl">
+                                    <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/sw.png" height="24" width="24" alt="sw">Swahili
+                                </a>
+                                <a href="#" onclick="doGTranslate('en|th');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Thai" class="nturl">
+                                    <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/th.png" height="24" width="24" alt="th">Thai
+                                </a>
+                                <a href="#" onclick="doGTranslate('en|tr');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Turkish" class="nturl">
+                                    <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/tr.png" height="24" width="24" alt="tr">Turkish
+                                </a>
+                                <a href="#" onclick="doGTranslate('en|ja');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Japanese" class="nturl">
+                                    <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/ja.png" height="24" width="24" alt="ja">Japanese
+                                </a>
+                                <a href="#" onclick="doGTranslate('en|ko');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Korean" class="nturl">
+                                    <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/ko.png" height="24" width="24" alt="ko">Korean
+                                </a>
+                                <a href="#" onclick="doGTranslate('en|am');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Amharic" class="nturl">
+                                    <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/am.png" height="24" width="24" alt="am">Amharic
+                                </a>
+                                <a href="#" onclick="doGTranslate('en|bs');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Bosnian" class="nturl">
+                                    <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/bs.png" height="24" width="24" alt="bs">Bosnian
+                                </a>
+                                <a href="#" onclick="doGTranslate('en|hr');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Croatian" class="nturl">
+                                    <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/hr.png" height="24" width="24" alt="hr">Croatian
+                                </a>
+                                <a href="#" onclick="doGTranslate('en|et');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Estonian" class="nturl">
+                                    <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/et.png" height="24" width="24" alt="et">Estonian
+                                </a>
+                                <a href="#" onclick="doGTranslate('en|hu');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Hungarian" class="nturl">
+                                    <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/hu.png" height="24" width="24" alt="hu">Hungarian
+                                </a>
+                                <a href="#" onclick="doGTranslate('en|id');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Indonesian" class="nturl">
+                                    <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/id.png" height="24" width="24" alt="id">Indonesian
+                                </a>
+                                <a href="#" onclick="doGTranslate('en|ka');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Georgian" class="nturl">
+                                    <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/ka.png" height="24" width="24" alt="ka">Georgian
+                                </a>
+                                <a href="#" onclick="doGTranslate('en|lv');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Latvian" class="nturl">
+                                    <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/lv.png" height="24" width="24" alt="lv">Latvian
+                                </a>
+                                <a href="#" onclick="doGTranslate('en|lt');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Lithuanian" class="nturl">
+                                    <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/lt.png" height="24" width="24" alt="lt">Lithuanian
+                                </a>
+                                <a href="#" onclick="doGTranslate('en|mk');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Macedonian" class="nturl">
+                                    <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/mk.png" height="24" width="24" alt="mk">Macedonian
+                                </a>
+                                <a href="#" onclick="doGTranslate('en|ms');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Malay" class="nturl">
+                                    <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/ms.png" height="24" width="24" alt="ms">Malay
+                                </a>
+                                <a href="#" onclick="doGTranslate('en|no');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Norwegian" class="nturl">
+                                    <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/no.png" height="24" width="24" alt="no">Norwegian
+                                </a>
+                                <a href="#" onclick="doGTranslate('en|ro');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Romanian" class="nturl">
+                                    <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/ro.png" height="24" width="24" alt="ro">Romanian
+                                </a>
+                                <a href="#" onclick="doGTranslate('en|sr');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Serbian" class="nturl">
+                                    <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/sr.png" height="24" width="24" alt="sr">Serbian
+                                </a>
+                                <a href="#" onclick="doGTranslate('en|uk');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Ukrainian" class="nturl">
+                                    <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/uk.png" height="24" width="24" alt="uk">Ukrainian
+                                </a>
+                            </div>
+                        </div>
+                        <script>
+                            (function gt_jquery_ready() {
+                                if (!window.jQuery || !jQuery.fn.click)
+                                    return setTimeout(gt_jquery_ready, 20);
+                                jQuery('.switcher .selected').click(function() {
+                                    jQuery('.switcher .option a img').each(function() {
+                                        if (!jQuery(this)[0].hasAttribute('src'))
+                                            jQuery(this).attr('src', jQuery(this).attr('data-gt-lazy-src'))
+                                    });
+                                    if (!(jQuery('.switcher .option').is(':visible'))) {
+                                        jQuery('.switcher .option').stop(true, true).delay(100).slideDown(500);
+                                        jQuery('.switcher .selected a').toggleClass('open')
+                                    }
+                                });
+                                jQuery('.switcher .option').bind('mousewheel', function(e) {
+                                    var options = jQuery('.switcher .option');
+                                    if (options.is(':visible'))
+                                        options.scrollTop(options.scrollTop() - e.originalEvent.wheelDelta / 10);
+                                    return false;
+                                });
+                                jQuery('body').not('.switcher').click(function(e) {
+                                    if (jQuery('.switcher .option').is(':visible') && e.target != jQuery('.switcher .option').get(0)) {
+                                        jQuery('.switcher .option').stop(true, true).delay(100).slideUp(500);
+                                        jQuery('.switcher .selected a').toggleClass('open')
+                                    }
+                                });
+                            }
+                            )();
+                        </script>
+                        <style>
+                            #goog-gt-tt {
+                                display: none!important;
+                            }
+
+                            .goog-te-banner-frame {
+                                display: none!important;
+                            }
+
+                            .goog-te-menu-value:hover {
+                                text-decoration: none!important;
+                            }
+
+                            .goog-text-highlight {
+                                background-color: transparent!important;
+                                box-shadow: none!important;
+                            }
+
+                            body {
+                                top: 0!important;
+                            }
+
+                            #google_translate_element2 {
+                                display: none!important;
+                            }
+                        </style>
+                        <div id="google_translate_element2"></div>
+                        <script>
+                            function googleTranslateElementInit2() {
+                                new google.translate.TranslateElement({
+                                    pageLanguage: 'en',
+                                    autoDisplay: false
+                                },'google_translate_element2');
+                            }
+                            if (!window.gt_translate_script) {
+                                window.gt_translate_script = document.createElement('script');
+                                gt_translate_script.src = 'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2';
+                                document.body.appendChild(gt_translate_script);
+                            }
+                        </script>
+                        <script>
+                            function GTranslateGetCurrentLang() {
+                                var keyValue = document['cookie'].match('(^|;) ?googtrans=([^;]*)(;|$)');
+                                return keyValue ? keyValue[2].split('/')[2] : null;
+                            }
+                            function GTranslateFireEvent(element, event) {
+                                try {
+                                    if (document.createEventObject) {
+                                        var evt = document.createEventObject();
+                                        element.fireEvent('on' + event, evt)
+                                    } else {
+                                        var evt = document.createEvent('HTMLEvents');
+                                        evt.initEvent(event, true, true);
+                                        element.dispatchEvent(evt)
+                                    }
+                                } catch (e) {}
+                            }
+                            function doGTranslate(lang_pair) {
+                                if (lang_pair.value)
+                                    lang_pair = lang_pair.value;
+                                if (lang_pair == '')
+                                    return;
+                                var lang = lang_pair.split('|')[1];
+                                if (GTranslateGetCurrentLang() == null && lang == lang_pair.split('|')[0])
+                                    return;
+                                if (typeof ga == 'function') {
+                                    ga('send', 'event', 'GTranslate', lang, location.hostname + location.pathname + location.search);
+                                }
+                                var teCombo;
+                                var sel = document.getElementsByTagName('select');
+                                for (var i = 0; i < sel.length; i++)
+                                    if (sel[i].className.indexOf('goog-te-combo') != -1) {
+                                        teCombo = sel[i];
+                                        break;
+                                    }
+                                if (document.getElementById('google_translate_element2') == null || document.getElementById('google_translate_element2').innerHTML.length == 0 || teCombo.length == 0 || teCombo.innerHTML.length == 0) {
+                                    setTimeout(function() {
+                                        doGTranslate(lang_pair)
+                                    }, 500)
+                                } else {
+                                    teCombo.value = lang;
+                                    GTranslateFireEvent(teCombo, 'change');
+                                    GTranslateFireEvent(teCombo, 'change')
+                                }
+                            }
+                            (function gt_jquery_ready() {
+                                if (!window.jQuery || !jQuery.fn.click)
+                                    return setTimeout(gt_jquery_ready, 20);
+                                if (GTranslateGetCurrentLang() != null)
+                                    jQuery(document).ready(function() {
+                                        var lang_html = jQuery('div.switcher div.option').find('img[alt="' + GTranslateGetCurrentLang() + '"]').parent().html();
+                                        if (typeof lang_html != 'undefined')
+                                            jQuery('div.switcher div.selected a').html(lang_html.replace('data-gt-lazy-', ''));
+                                    });
+                            }
+                            )();
+                        </script>
+                        <!--<ul class="lang_list">
+                        <li>
+                            English
+                                <span class="icon-submenu"></span>
+                                <ul class="lang-sub-menu">
+                                    <li>
+                                        <a href="">lang
+                                        </a>
                                     </li>
-                                    
-									
-                                    <li id="menu-item-79" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-79">
-                                        <a href="CV.html">CV</a>
+                                    <li>
+                                        <a href="">lang
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">lang</a>
                                     </li>
                                 </ul>
-                            </div>
-                        </div>
-                        <div class="main_language">
-                            <!-- GTranslate: https://gtranslate.io/ -->
-                            <style>
-                                .switcher {
-                                    font-family: Arial;
-                                    font-size: 12pt;
-                                    text-align: left;
-                                    cursor: pointer;
-                                    overflow: hidden;
-                                    width: 173px;
-                                    line-height: 17px;
-                                }
-
-                                .switcher a {
-                                    text-decoration: none;
-                                    display: block;
-                                    font-size: 12pt;
-                                    -webkit-box-sizing: content-box;
-                                    -moz-box-sizing: content-box;
-                                    box-sizing: content-box;
-                                }
-
-                                .switcher a img {
-                                    vertical-align: middle;
-                                    display: inline;
-                                    border: 0;
-                                    padding: 0;
-                                    margin: 0;
-                                    opacity: 0.8;
-                                }
-
-                                .switcher a:hover img {
-                                    opacity: 1;
-                                }
-
-                                .switcher .selected {
-                                    background: #fff linear-gradient(180deg, #efefef 0%, #fff 70%);
-                                    position: relative;
-                                    z-index: 9999;
-                                }
-
-                                .switcher .selected a {
-                                    border: 1px solid #ccc;
-                                    color: #666;
-                                    padding: 3px 5px;
-                                    width: 161px;
-                                }
-
-                                .switcher .selected a:after {
-                                    height: 24px;
-                                    display: inline-block;
-                                    position: absolute;
-                                    right: 10px;
-                                    width: 15px;
-                                    background-position: 50%;
-                                    background-size: 11px;
-                                    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 285 285'><path d='M282 76.5l-14.2-14.3a9 9 0 0 0-13.1 0L142.5 174.4 30.3 62.2a9 9 0 0 0-13.2 0L3 76.5a9 9 0 0 0 0 13.1l133 133a9 9 0 0 0 13.1 0l133-133a9 9 0 0 0 0-13z' style='fill:%23666'/></svg>");
-                                    background-repeat: no-repeat;
-                                    content: ""!important;
-                                    transition: all .2s;
-                                }
-
-                                .switcher .selected a.open:after {
-                                    -webkit-transform: rotate(-180deg);
-                                    transform: rotate(-180deg);
-                                }
-
-                                .switcher .selected a:hover {
-                                    background: #fff
-                                }
-
-                                .switcher .option {
-                                    position: relative;
-                                    z-index: 9998;
-                                    border-left: 1px solid #ccc;
-                                    border-right: 1px solid #ccc;
-                                    border-bottom: 1px solid #ccc;
-                                    background-color: #eee;
-                                    display: none;
-                                    width: 171px;
-                                    max-height: 198px;
-                                    -webkit-box-sizing: content-box;
-                                    -moz-box-sizing: content-box;
-                                    box-sizing: content-box;
-                                    overflow-y: auto;
-                                    overflow-x: hidden;
-                                }
-
-                                .switcher .option a {
-                                    color: #000;
-                                    padding: 3px 5px;
-                                }
-
-                                .switcher .option a:hover {
-                                    background: #fff;
-                                }
-
-                                .switcher .option a.selected {
-                                    background: #fff;
-                                }
-
-                                #selected_lang_name {
-                                    float: none;
-                                }
-
-                                .l_name {
-                                    float: none !important;
-                                    margin: 0;
-                                }
-
-                                .switcher .option::-webkit-scrollbar-track {
-                                    -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.3);
-                                    border-radius: 5px;
-                                    background-color: #f5f5f5;
-                                }
-
-                                .switcher .option::-webkit-scrollbar {
-                                    width: 5px;
-                                }
-
-                                .switcher .option::-webkit-scrollbar-thumb {
-                                    border-radius: 5px;
-                                    -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,.3);
-                                    background-color: #888;
-                                }
-                            </style>
-                            <div class="switcher notranslate">
-                                <div class="selected">
-                                    <a href="#" onclick="return false;">
-                                        <img src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/en-us.png" height="24" width="24" alt="en"/>English
-                                    </a>
-                                </div>
-                                <div class="option">
-                                    <a href="#" onclick="doGTranslate('en|ar');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Arabic" class="nturl">
-                                        <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/ar.png" height="24" width="24" alt="ar"/>Arabic
-                                    </a>
-                                    <a href="#" onclick="doGTranslate('en|zh-CN');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Chinese (Simplified)" class="nturl">
-                                        <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/zh-CN.png" height="24" width="24" alt="zh-CN"/>Chinese (Simplified)
-                                    </a>
-                                    <a href="#" onclick="doGTranslate('en|nl');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Dutch" class="nturl">
-                                        <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/nl.png" height="24" width="24" alt="nl"/>Dutch
-                                    </a>
-                                    <a href="#" onclick="doGTranslate('en|en');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="English" class="nturl selected">
-                                        <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/en-us.png" height="24" width="24" alt="en"/>English
-                                    </a>
-                                    <a href="#" onclick="doGTranslate('en|fr');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="French" class="nturl">
-                                        <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/fr.png" height="24" width="24" alt="fr"/>French
-                                    </a>
-                                    <a href="#" onclick="doGTranslate('en|de');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="German" class="nturl">
-                                        <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/de.png" height="24" width="24" alt="de"/>German
-                                    </a>
-                                    <a href="#" onclick="doGTranslate('en|it');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Italian" class="nturl">
-                                        <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/it.png" height="24" width="24" alt="it"/>Italian
-                                    </a>
-                                    <a href="#" onclick="doGTranslate('en|pt');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Portuguese" class="nturl">
-                                        <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/pt.png" height="24" width="24" alt="pt"/>Portuguese
-                                    </a>
-                                    <a href="#" onclick="doGTranslate('en|ru');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Russian" class="nturl">
-                                        <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/ru.png" height="24" width="24" alt="ru"/>Russian
-                                    </a>
-                                    <a href="#" onclick="doGTranslate('en|es');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Spanish" class="nturl">
-                                        <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/es.png" height="24" width="24" alt="es"/>Spanish
-                                    </a>
-                                    <a href="#" onclick="doGTranslate('en|vi');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Vietnamese" class="nturl">
-                                        <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/vi.png" height="24" width="24" alt="vi"/>Vietnamese
-                                    </a>
-                                    <a href="#" onclick="doGTranslate('en|sw');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Swahili" class="nturl">
-                                        <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/sw.png" height="24" width="24" alt="sw"/>Swahili
-                                    </a>
-                                    <a href="#" onclick="doGTranslate('en|th');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Thai" class="nturl">
-                                        <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/th.png" height="24" width="24" alt="th"/>Thai
-                                    </a>
-                                    <a href="#" onclick="doGTranslate('en|tr');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Turkish" class="nturl">
-                                        <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/tr.png" height="24" width="24" alt="tr"/>Turkish
-                                    </a>
-                                    <a href="#" onclick="doGTranslate('en|ja');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Japanese" class="nturl">
-                                        <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/ja.png" height="24" width="24" alt="ja"/>Japanese
-                                    </a>
-                                    <a href="#" onclick="doGTranslate('en|ko');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Korean" class="nturl">
-                                        <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/ko.png" height="24" width="24" alt="ko"/>Korean
-                                    </a>
-                                    <a href="#" onclick="doGTranslate('en|am');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Amharic" class="nturl">
-                                        <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/am.png" height="24" width="24" alt="am"/>Amharic
-                                    </a>
-                                    <a href="#" onclick="doGTranslate('en|bs');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Bosnian" class="nturl">
-                                        <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/bs.png" height="24" width="24" alt="bs"/>Bosnian
-                                    </a>
-                                    <a href="#" onclick="doGTranslate('en|hr');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Croatian" class="nturl">
-                                        <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/hr.png" height="24" width="24" alt="hr"/>Croatian
-                                    </a>
-                                    <a href="#" onclick="doGTranslate('en|et');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Estonian" class="nturl">
-                                        <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/et.png" height="24" width="24" alt="et"/>Estonian
-                                    </a>
-                                    <a href="#" onclick="doGTranslate('en|hu');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Hungarian" class="nturl">
-                                        <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/hu.png" height="24" width="24" alt="hu"/>Hungarian
-                                    </a>
-                                    <a href="#" onclick="doGTranslate('en|id');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Indonesian" class="nturl">
-                                        <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/id.png" height="24" width="24" alt="id"/>Indonesian
-                                    </a>
-                                    <a href="#" onclick="doGTranslate('en|ka');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Georgian" class="nturl">
-                                        <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/ka.png" height="24" width="24" alt="ka"/>Georgian
-                                    </a>
-                                    <a href="#" onclick="doGTranslate('en|lv');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Latvian" class="nturl">
-                                        <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/lv.png" height="24" width="24" alt="lv"/>Latvian
-                                    </a>
-                                    <a href="#" onclick="doGTranslate('en|lt');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Lithuanian" class="nturl">
-                                        <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/lt.png" height="24" width="24" alt="lt"/>Lithuanian
-                                    </a>
-                                    <a href="#" onclick="doGTranslate('en|mk');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Macedonian" class="nturl">
-                                        <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/mk.png" height="24" width="24" alt="mk"/>Macedonian
-                                    </a>
-                                    <a href="#" onclick="doGTranslate('en|ms');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Malay" class="nturl">
-                                        <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/ms.png" height="24" width="24" alt="ms"/>Malay
-                                    </a>
-                                    <a href="#" onclick="doGTranslate('en|no');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Norwegian" class="nturl">
-                                        <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/no.png" height="24" width="24" alt="no"/>Norwegian
-                                    </a>
-                                    <a href="#" onclick="doGTranslate('en|ro');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Romanian" class="nturl">
-                                        <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/ro.png" height="24" width="24" alt="ro"/>Romanian
-                                    </a>
-                                    <a href="#" onclick="doGTranslate('en|sr');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Serbian" class="nturl">
-                                        <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/sr.png" height="24" width="24" alt="sr"/>Serbian
-                                    </a>
-                                    <a href="#" onclick="doGTranslate('en|uk');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Ukrainian" class="nturl">
-                                        <img data-gt-lazy-src="//udaychandra.com/wp-content/plugins/gtranslate/flags/24/uk.png" height="24" width="24" alt="uk"/>Ukrainian
-                                    </a>
-                                </div>
-                            </div>
-                            <script>
-                                (function gt_jquery_ready() {
-                                    if (!window.jQuery || !jQuery.fn.click)
-                                        return setTimeout(gt_jquery_ready, 20);
-                                    jQuery('.switcher .selected').click(function() {
-                                        jQuery('.switcher .option a img').each(function() {
-                                            if (!jQuery(this)[0].hasAttribute('src'))
-                                                jQuery(this).attr('src', jQuery(this).attr('data-gt-lazy-src'))
-                                        });
-                                        if (!(jQuery('.switcher .option').is(':visible'))) {
-                                            jQuery('.switcher .option').stop(true, true).delay(100).slideDown(500);
-                                            jQuery('.switcher .selected a').toggleClass('open')
-                                        }
-                                    });
-                                    jQuery('.switcher .option').bind('mousewheel', function(e) {
-                                        var options = jQuery('.switcher .option');
-                                        if (options.is(':visible'))
-                                            options.scrollTop(options.scrollTop() - e.originalEvent.wheelDelta / 10);
-                                        return false;
-                                    });
-                                    jQuery('body').not('.switcher').click(function(e) {
-                                        if (jQuery('.switcher .option').is(':visible') && e.target != jQuery('.switcher .option').get(0)) {
-                                            jQuery('.switcher .option').stop(true, true).delay(100).slideUp(500);
-                                            jQuery('.switcher .selected a').toggleClass('open')
-                                        }
-                                    });
-                                }
-                                )();
-                            </script>
-                            <style>
-                                #goog-gt-tt {
-                                    display: none!important;
-                                }
-
-                                .goog-te-banner-frame {
-                                    display: none!important;
-                                }
-
-                                .goog-te-menu-value:hover {
-                                    text-decoration: none!important;
-                                }
-
-                                .goog-text-highlight {
-                                    background-color: transparent!important;
-                                    box-shadow: none!important;
-                                }
-
-                                body {
-                                    top: 0!important;
-                                }
-
-                                #google_translate_element2 {
-                                    display: none!important;
-                                }
-                            </style>
-                            <div id="google_translate_element2"></div>
-                            <script>
-                                function googleTranslateElementInit2() {
-                                    new google.translate.TranslateElement({
-                                        pageLanguage: 'en',
-                                        autoDisplay: false
-                                    },'google_translate_element2');
-                                }
-                                if (!window.gt_translate_script) {
-                                    window.gt_translate_script = document.createElement('script');
-                                    gt_translate_script.src = 'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2';
-                                    document.body.appendChild(gt_translate_script);
-                                }
-                            </script>
-                            <script>
-                                function GTranslateGetCurrentLang() {
-                                    var keyValue = document['cookie'].match('(^|;) ?googtrans=([^;]*)(;|$)');
-                                    return keyValue ? keyValue[2].split('/')[2] : null;
-                                }
-                                function GTranslateFireEvent(element, event) {
-                                    try {
-                                        if (document.createEventObject) {
-                                            var evt = document.createEventObject();
-                                            element.fireEvent('on' + event, evt)
-                                        } else {
-                                            var evt = document.createEvent('HTMLEvents');
-                                            evt.initEvent(event, true, true);
-                                            element.dispatchEvent(evt)
-                                        }
-                                    } catch (e) {}
-                                }
-                                function doGTranslate(lang_pair) {
-                                    if (lang_pair.value)
-                                        lang_pair = lang_pair.value;
-                                    if (lang_pair == '')
-                                        return;
-                                    var lang = lang_pair.split('|')[1];
-                                    if (GTranslateGetCurrentLang() == null && lang == lang_pair.split('|')[0])
-                                        return;
-                                    if (typeof ga == 'function') {
-                                        ga('send', 'event', 'GTranslate', lang, location.hostname + location.pathname + location.search);
-                                    }
-                                    var teCombo;
-                                    var sel = document.getElementsByTagName('select');
-                                    for (var i = 0; i < sel.length; i++)
-                                        if (sel[i].className.indexOf('goog-te-combo') != -1) {
-                                            teCombo = sel[i];
-                                            break;
-                                        }
-                                    if (document.getElementById('google_translate_element2') == null || document.getElementById('google_translate_element2').innerHTML.length == 0 || teCombo.length == 0 || teCombo.innerHTML.length == 0) {
-                                        setTimeout(function() {
-                                            doGTranslate(lang_pair)
-                                        }, 500)
-                                    } else {
-                                        teCombo.value = lang;
-                                        GTranslateFireEvent(teCombo, 'change');
-                                        GTranslateFireEvent(teCombo, 'change')
-                                    }
-                                }
-                                (function gt_jquery_ready() {
-                                    if (!window.jQuery || !jQuery.fn.click)
-                                        return setTimeout(gt_jquery_ready, 20);
-                                    if (GTranslateGetCurrentLang() != null)
-                                        jQuery(document).ready(function() {
-                                            var lang_html = jQuery('div.switcher div.option').find('img[alt="' + GTranslateGetCurrentLang() + '"]').parent().html();
-                                            if (typeof lang_html != 'undefined')
-                                                jQuery('div.switcher div.selected a').html(lang_html.replace('data-gt-lazy-', ''));
-                                        });
-                                }
-                                )();
-                            </script>
-                            <!--<ul class="lang_list">
-							<li>
-								English
-									<span class="icon-submenu"></span>
-									<ul class="lang-sub-menu">
-										<li>
-											<a href="">lang
-											</a>
-										</li>
-										<li>
-											<a href="">lang
-											</a>
-										</li>
-										<li>
-											<a href="">lang</a>
-										</li>
-									</ul>
-							</li>
-						</ul>-->
-                        </div>
-                        
-                        <ul class="main_socialmedia">
-                            <li>
-                                <a target="_blank" href="mailto:S.Nath@sussex.ac.uk">
-				    <img src="https://udaychandra.com/wp-content/themes/Udaychandra/assets/images/mail.png" alt="Email">
-				</a>
-
-                            </li>
-                            <li>
-                                <a target="blank" href="https://www.facebook.com/winterlightalone?mibextid=ZbWKwL">
-                                    <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png">
-                                </a>
-                            </li>
-                            <li>
-                                <a target="blank" href="https://profiles.sussex.ac.uk/p363757-saumya-nath">
-                                    <img src="https://udaychandra.com/wp-content/themes/Udaychandra/assets/images/lin.png">
-                                </a>
-                            </li>
-                        </ul>
+                        </li>
+                    </ul>-->
                     </div>
+                    <div class="main_searchbar">
+                        <div id="searchOverlay" class="search_overlay" style="display: none;">
+                            <span class="closesearchbtn" onclick="closeSearch()" title="Close">×</span>
+                            <div class="search_overlay_cnt">
+                                <!-- <form role="search"  method="get" class="search-form" action="https://udaychandra.com/">
+<label for="search-form-1">Search&hellip;</label>
+<input type="search" id="search-form-1" class="search-field" value="" name="s" />
+<input type="submit" class="search-submit" value="Search" />
+</form> -->
+                                <form method="get" class="search-form" action="">
+                                    <input type="search" id="search-form-1" class="search-field" value="" name="s" placeholder="Search..">
+                                    <button type="submit" class="search-submit">
+                                        <svg class="svg-inline--fa fa-magnifying-glass" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="magnifying-glass" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M500.3 443.7l-119.7-119.7c27.22-40.41 40.65-90.9 33.46-144.7C401.8 87.79 326.8 13.32 235.2 1.723C99.01-15.51-15.51 99.01 1.724 235.2c11.6 91.64 86.08 166.7 177.6 178.9c53.8 7.189 104.3-6.236 144.7-33.46l119.7 119.7c15.62 15.62 40.95 15.62 56.57 0C515.9 484.7 515.9 459.3 500.3 443.7zM79.1 208c0-70.58 57.42-128 128-128s128 57.42 128 128c0 70.58-57.42 128-128 128S79.1 278.6 79.1 208z"></path></svg><!-- <i class="fa-solid fa-magnifying-glass"></i> Font Awesome fontawesome.com -->
+                                    </button>
+                                </form>
+                                <!-- <form action="https://udaychandra.com/">
+                                <input type="search" placeholder="Search..">
+                                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                            </form> -->
+                            </div>
+                        </div>
+                        <button type="submit" class="opensearchBtn" onclick="openSearch()">
+                            <svg class="svg-inline--fa fa-magnifying-glass" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="magnifying-glass" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M500.3 443.7l-119.7-119.7c27.22-40.41 40.65-90.9 33.46-144.7C401.8 87.79 326.8 13.32 235.2 1.723C99.01-15.51-15.51 99.01 1.724 235.2c11.6 91.64 86.08 166.7 177.6 178.9c53.8 7.189 104.3-6.236 144.7-33.46l119.7 119.7c15.62 15.62 40.95 15.62 56.57 0C515.9 484.7 515.9 459.3 500.3 443.7zM79.1 208c0-70.58 57.42-128 128-128s128 57.42 128 128c0 70.58-57.42 128-128 128S79.1 278.6 79.1 208z"></path></svg><!-- <i class="fa-solid fa-magnifying-glass"></i> Font Awesome fontawesome.com -->
+                        </button>
+                    </div>
+                    <ul class="main_socialmedia">
+                        <li>
+                            <a target="blank" href="">
+                                <img src="https://udaychandra.com/wp-content/themes/Udaychandra/assets/images/mail.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a target="blank" href="">
+                                <img src="https://udaychandra.com/wp-content/themes/Udaychandra/assets/images/gplus.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a target="blank" href="">
+                                <img src="https://udaychandra.com/wp-content/themes/Udaychandra/assets/images/lin.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a target="blank" href="">
+                                <img src="https://udaychandra.com/wp-content/themes/Udaychandra/assets/images/twi.png">
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </header>
-        <section class="mainslider">
-            <div class="owl-carousel owl-carousel owl-theme" id="main_slider">
-                <div class="item item1">
-                    <img src="images/office img.jpeg" class="mainslider-bgimg">
-                    <div class="container">
-                        <div class="item_wrapper">
-                            <div class="itembox">
-                                <div class="item_mainbody">
-                                    <h5>WELCOME!</h5>
-                                    <h1>I'M SAUMYA RANJAN NATH</h1>
-                                    <p>I possess thirteen years of combined professional and research experience, including four years dedicated to teaching, supervising, curriculum development, seminar facilitation, grading, and mentoring students.</p>
-                                </div>
-                                <div class="item_mainimg">
-                                    <img src="images/saumya ranjan img 5.png" class="heroimg">
-                                </div>
+        </div>
+    </header><script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2"></script>
+    
+    <section class="mainslider">
+        <div class="owl-carousel owl-carousel owl-theme owl-loaded owl-drag" id="main_slider">   
+        <div class="owl-stage-outer"><div class="owl-stage" style="transition: all; width: 653px; transform: translate3d(-326px, 0px, 0px);"><div class="owl-item cloned" style="width: 108.667px;"><div class="item item1">
+                <img src="images/office img.jpeg" class="mainslider-bgimg">
+                <div class="container">
+                    <div class="item_wrapper">
+                        <div class="itembox">
+                            <div class="item_mainbody">
+                                <h5>WELCOME!</h5>
+                                <h1>I'M SAUMYA RANJAN NATH</h1>
+                                <p>I possess thirteen years of combined professional and research experience, including four years dedicated to teaching, supervising, curriculum development, seminar facilitation, grading, and mentoring students.</p>
+                            </div>
+                            <div class="item_mainimg">
+                                <img src="images/saumya ranjan img 5.png" class="heroimg">
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="item item1">
-                    <img src="images/office img.jpeg" class="mainslider-bgimg">
-                    <div class="container">
-                        <div class="item_wrapper">
-                            <div class="itembox">
-                                <div class="item_mainbody">
-                                    <h5></h5>
-                                    <h1></h1>
-                                    <p></p>
-                                </div>
-                                <div class="item_mainimg">
-                                    <img src="images/function img.jpeg" class="heroimg">
-                                </div>
+            </div></div><div class="owl-item cloned" style="width: 108.667px;"><div class="item item1">
+                <img src="images/office img.jpeg" class="mainslider-bgimg">
+                <div class="container">
+                    <div class="item_wrapper">
+                        <div class="itembox">
+                            <div class="item_mainbody">
+                                <h5></h5>
+                                <h1></h1>
+                                <p></p>
+                            </div>
+                            <div class="item_mainimg">
+                                <img src="images/function img.jpeg" class="heroimg">
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- aboutus -->
-        <section class="rightside_section pb-0">
-            <div class="container">
-                <div class="aboutus_wrapper">
-                    <div class="row">
-                        <div class="col-xl-7 col-lg-6 col-md-12 col-sm-12">
-                            <div class="rightside_mainbody">
-                                <p>
-                                <p>
-                                    I completed my PhD in History (Environmental History/Political Ecology) at the School of Media, Arts, and Humanities, University of Sussex, Brighton, United Kingdom.MA in Social Work at Tata Institute of Social Sciences, Mumbai, India & B.A (Honours)  in English Literature at Utkal University, Bhubaneswar, India
-                                    <p>
-                                        My doctoral dissertation, <em> Defending the Sacred: Discourses of Development, Identity, and Everyday Resistance among the Dongria Kondhs in Eastern India,</em>, interrogates the environmental historiography and socio-political anthropology of the Dongria Kondhs, foregrounding the dialectics of marginalization, dispossession, and subaltern resistance as legacies of colonial and postcolonial hegemonies.
-                                        My professional experience spans interdisciplinary research, policy advocacy, and sustainable development, including leading a CHASE Doctoral Training Partnership project to assess postgraduate researcher development across UK universities, contributing to global income inequality studies at the University of Sussex, and conducting data analysis with R and Python. I have designed policy frameworks for mining, forest rights, and environmental governance in India, facilitated solar electrification and cultural preservation initiatives for indigenous communities, and collaborated on ecological restoration and disaster management plans with national and international stakeholders, contributing to sustainable livelihoods and social protection programs.
-                                    </p>
-                                    <a href="#" target="_blank" rel="noopener">
-                                        <span style="background-color: var(--global--color-background);color: var(--global--color-primary);font-family: var(--global--font-secondary);font-size: var(--global--font-size-base)"></span>
-                                    </a>
-                                    <span style="background-color: var(--global--color-background);color: var(--global--color-primary);font-family: var(--global--font-secondary);font-size: var(--global--font-size-base)">
-                                       <a href="#" target="_blank" rel="noopener"></a>
-                                        .
-                                    </span>
+            </div></div></div></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><span></span></button><button role="button" class="owl-dot active"><span></span></button></div></div>
+    </section>
+    <!-- aboutus -->
+    <section class="rightside_section pb-0">
+        <div class="container">
+            <div class="aboutus_wrapper">
+                <div class="row">
+                    <div class="col-xl-7 col-lg-6 col-md-12 col-sm-12">
+                        <div class="rightside_mainbody">
+                            <p>
+                            </p><p>
+                                I completed my PhD in History (Environmental History/Political Ecology) at the School of Media, Arts, and Humanities, University of Sussex, Brighton, United Kingdom.MA in Social Work at Tata Institute of Social Sciences, Mumbai, India &amp; B.A (Honours)  in English Literature at Utkal University, Bhubaneswar, India
+                                </p><p>
+                                    My doctoral dissertation, <em> Defending the Sacred: Discourses of Development, Identity, and Everyday Resistance among the Dongria Kondhs in Eastern India,</em>, interrogates the environmental historiography and socio-political anthropology of the Dongria Kondhs, foregrounding the dialectics of marginalization, dispossession, and subaltern resistance as legacies of colonial and postcolonial hegemonies.
+                                    My professional experience spans interdisciplinary research, policy advocacy, and sustainable development, including leading a CHASE Doctoral Training Partnership project to assess postgraduate researcher development across UK universities, contributing to global income inequality studies at the University of Sussex, and conducting data analysis with R and Python. I have designed policy frameworks for mining, forest rights, and environmental governance in India, facilitated solar electrification and cultural preservation initiatives for indigenous communities, and collaborated on ecological restoration and disaster management plans with national and international stakeholders, contributing to sustainable livelihoods and social protection programs.
                                 </p>
-</p>
+                                <a href="#" target="_blank" rel="noopener">
+                                    <span style="background-color: var(--global--color-background);color: var(--global--color-primary);font-family: var(--global--font-secondary);font-size: var(--global--font-size-base)"></span>
+                                </a>
+                                <span style="background-color: var(--global--color-background);color: var(--global--color-primary);font-family: var(--global--font-secondary);font-size: var(--global--font-size-base)">
+                                   <a href="#" target="_blank" rel="noopener"></a>
+                                    .
+                                </span>
+                            <p></p>
+<p></p>
 <!--<a href="" class="btn">Read More</a>-->
 </div></div>
 <div class="col-xl-5 col-lg-6 col-md-12 col-sm-12">
-    <div class="rightside_mainimg">
-        <img src="images/standing img.jpeg">
-       <ul class="rightside_socialmedia">
-            <li>
-                                <a target="_blank" href="mailto:S.Nath@sussex.ac.uk">
-				    <img src="https://udaychandra.com/wp-content/themes/Udaychandra/assets/images/mail.png" alt="Email">
-				</a>
-
-                            </li>
-                            <li>
-                                <a target="blank" href="https://www.facebook.com/winterlightalone?mibextid=ZbWKwL">
-                                    <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png">
-                                </a>
-                            </li>
-                            <li>
-                                <a target="blank" href="https://profiles.sussex.ac.uk/p363757-saumya-nath">
-                                    <img src="https://udaychandra.com/wp-content/themes/Udaychandra/assets/images/lin.png">
-                                </a>
-                            </li>
-        </ul>
-    </div>
+<div class="rightside_mainimg">
+    <img src="images/standing img.jpeg">
+   <ul class="rightside_socialmedia">
+        <li>
+            <a target="blank" href="">
+                <img src="https://udaychandra.com/wp-content/themes/Udaychandra/assets/images/mail.png">
+            </a>
+        </li>
+        <li>
+            <a target="blank" href="">
+                <img src="https://udaychandra.com/wp-content/themes/Udaychandra/assets/images/gplus.png">
+            </a>
+        </li>
+        <li>
+            <a target="blank" href="">
+                <img src="https://udaychandra.com/wp-content/themes/Udaychandra/assets/images/lin.png">
+            </a>
+        </li>
+        <li>
+            <a target="blank" href="">
+                <img src="https://udaychandra.com/wp-content/themes/Udaychandra/assets/images/twi.png">
+            </a>
+        </li>
+    </ul>
+</div>
 </div>
 </div></div></div></section>
 <section class="leftside_section pb-0">
-    <div class="container">
-        <div class="aboutus_wrapper">
-            <div class="row">
-                <div class="col-xl-5 col-lg-6 col-md-12 col-sm-12">
-                    <div class="leftside_mainimg">
-                        <img src="images/standing aside img.jpeg">
-                        <ul class="leftside_socialmedia">
-                            <li>
-                                <a target="_blank" href="mailto:S.Nath@sussex.ac.uk">
-				    <img src="https://udaychandra.com/wp-content/themes/Udaychandra/assets/images/mail.png" alt="Email">
-				</a>
-
-                            </li>
-                            <li>
-                                <a target="blank" href="https://www.facebook.com/winterlightalone?mibextid=ZbWKwL">
-                                    <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png">
-                                </a>
-                            </li>
-                            <li>
-                                <a target="blank" href="https://profiles.sussex.ac.uk/p363757-saumya-nath">
-                                    <img src="https://udaychandra.com/wp-content/themes/Udaychandra/assets/images/lin.png">
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+<div class="container">
+    <div class="aboutus_wrapper">
+        <div class="row">
+            <div class="col-xl-5 col-lg-6 col-md-12 col-sm-12">
+                <div class="leftside_mainimg">
+                    <img src="images/standing aside img.jpeg">
+                    <ul class="leftside_socialmedia">
+                        <li>
+                            <a target="blank" href="">
+                                <img src="https://udaychandra.com/wp-content/themes/Udaychandra/assets/images/mail.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a target="blank" href="">
+                                <img src="https://udaychandra.com/wp-content/themes/Udaychandra/assets/images/gplus.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a target="blank" href="">
+                                <img src="https://udaychandra.com/wp-content/themes/Udaychandra/assets/images/lin.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a target="blank" href="">
+                                <img src="https://udaychandra.com/wp-content/themes/Udaychandra/assets/images/twi.png">
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-xl-7 col-lg-6 col-md-12 col-sm-12">
-                    <div class="leftside_mainbody">
-                        <p>
-                        <p>
-                             <em> Defending the Sacred: Discourses of Development, Identity, and Everyday Resistance among the Dongria Kondh.University of Sussex. Thesis.</em>
-                             <em><a href="https://hdl.handle.net/10779/uos.25966813.v1 ">Defending the sacred</a></em>,‘Positioning Odisha's Neoliberal Transformation within a Historical Framework’, in Mallick,  P.,(eds.) (2025) Contours of Democracy in New India, London: Routledge.
-                             ., (2025) Book Review ‘Resistance as Negotiation: Margins of Modern India by Dr Uday Chandra, Stanford University Press’. SAR Journal - Science and Research.
-                        </p>
-                        <p>
-                            Nath, S.R., Jones, K. and Viney, C. (2021) Understanding the experience of postgraduate researchers (PGRs) using the Vitae Researcher Development Framework (RDF) at UK Universities published by Vitae & Consortium for the Humanities and the Arts South-East England (CHASE). Available at:<em><a href="https://www.vitae.ac.uk/researchers-professional-development/about-the-vitae-researcher-development-framework/understanding-experience-of-pgrs-using-the-vitae-rdf-at-uk-universities-final-june-2021.pdf">(PGRs)</a></em> 
-                            Nath, S.R. (2020) ‘Artists’ Federation for Social Awareness in Kandhamal, Odisha’, in Making Development Happen: Transformational Change in Rural India, ed. K. Seeta Prabhu and S. Parasuraman by Orient Black Swan, New Delhi ( ISBN. 9789352879311).  
-                            Illegal and unfair acquisition of mining land in  Korba in Down to Earth  <em><a href="https://www.downtoearth.org.in/news/mining/illegal-and-unfair-acquisition-of-mining-land-in-korba-54627">Illegal and unfair acquisition</a></em>.
-                          
-                        </p>
-</p>
+            </div>
+            <div class="col-xl-7 col-lg-6 col-md-12 col-sm-12">
+                <div class="leftside_mainbody">
+                    <p>
+                    </p><p>
+                         <em> Defending the Sacred: Discourses of Development, Identity, and Everyday Resistance among the Dongria Kondh.University of Sussex. Thesis.</em>
+                         <em><a href="https://hdl.handle.net/10779/uos.25966813.v1 ">Defending the sacred</a></em>,‘Positioning Odisha's Neoliberal Transformation within a Historical Framework’, in Mallick,  P.,(eds.) (2025) Contours of Democracy in New India, London: Routledge.
+                         ., (2025) Book Review ‘Resistance as Negotiation: Margins of Modern India by Dr Uday Chandra, Stanford University Press’. SAR Journal - Science and Research.
+                    </p>
+                    <p>
+                        Nath, S.R., Jones, K. and Viney, C. (2021) Understanding the experience of postgraduate researchers (PGRs) using the Vitae Researcher Development Framework (RDF) at UK Universities published by Vitae &amp; Consortium for the Humanities and the Arts South-East England (CHASE). Available at:<em><a href="https://www.vitae.ac.uk/researchers-professional-development/about-the-vitae-researcher-development-framework/understanding-experience-of-pgrs-using-the-vitae-rdf-at-uk-universities-final-june-2021.pdf">(PGRs)</a></em> 
+                        Nath, S.R. (2020) ‘Artists’ Federation for Social Awareness in Kandhamal, Odisha’, in Making Development Happen: Transformational Change in Rural India, ed. K. Seeta Prabhu and S. Parasuraman by Orient Black Swan, New Delhi ( ISBN. 9789352879311).  
+                        Illegal and unfair acquisition of mining land in  Korba in Down to Earth  <em><a href="https://www.downtoearth.org.in/news/mining/illegal-and-unfair-acquisition-of-mining-land-in-korba-54627">Illegal and unfair acquisition</a></em>.
+                      
+                    </p>
+<p></p>
 <a href="" class="btn">Read More</a>
 </div></div></div></div></div></section>
 <!-- footer -->
 <footer class="footer">
-    <div class="container">
-        <div class="copyright">
-            <p>Reach me </p>
-            <p>at</p>
-            <p>S.Nath[at]sussex.ac.uk</p>
-        </div>
+<div class="container">
+    <div class="copyright">
+        <p>Reach me </p>
+        <p>at</p>
+        <p>S.Nath[at]sussex.ac.uk</p>
     </div>
+</div>
 </footer>
 <!-- javascript -->
-<script src="https://udaychandra.com/wp-content/themes/Udaychandra/assets/js/jquery-3.6.0.js"></script>
-<script src="https://udaychandra.com/wp-content/themes/Udaychandra/assets/js/bootstrap.js"></script>
-<script src="https://udaychandra.com/wp-content/themes/Udaychandra/assets/js/all.js"></script>
-<script src="https://udaychandra.com/wp-content/themes/Udaychandra/assets/js/owl.carousel.min.js"></script>
-<script src="https://udaychandra.com/wp-content/themes/Udaychandra/assets/js/custom.js"></script>
+<script src="/js/jquery-3.6.0.js"></script>
+<script src="/js/bootstrap.js"></script>
+<script src="/js/all.js"></script>
+<script src="/js/owl.carousel.min.js"></script>
+<script src="/js/custom.js"></script>
 <script>
-    $(document).ready(function() {
-        $("#menu-header .sub-menu").each(function() {
-            $(this).before('<span class="icon-submenu"></span>');
-        });
-        $(document).on('click', '.icon-submenu', function() {
-            $(this).next('.sub-menu').toggleClass('active');
-            $(this).toggleClass('active');
-        });
+$(document).ready(function() {
+    $("#menu-header .sub-menu").each(function() {
+        $(this).before('<span class="icon-submenu"></span>');
     });
+    $(document).on('click', '.icon-submenu', function() {
+        $(this).next('.sub-menu').toggleClass('active');
+        $(this).toggleClass('active');
+    });
+});
 </script>
 <script>
-    document.body.classList.remove("no-js");
+document.body.classList.remove("no-js");
 </script>
 <script>
-    if (-1 !== navigator.userAgent.indexOf('MSIE') || -1 !== navigator.appVersion.indexOf('Trident/')) {
-        document.body.classList.add('is-IE');
-    }
+if (-1 !== navigator.userAgent.indexOf('MSIE') || -1 !== navigator.appVersion.indexOf('Trident/')) {
+    document.body.classList.add('is-IE');
+}
 </script>
 <style type="text/css" data-ctf-style="2">
-    .ctf-feed-2.ctf-regular-style .ctf-item, .ctf-feed-2 .ctf-header {
-        border-bottom: 1px solid #DDD!important;
-    }
+.ctf-feed-2.ctf-regular-style .ctf-item, .ctf-feed-2 .ctf-header {
+    border-bottom: 1px solid #DDD!important;
+}
 </style>
 <script src="https://udaychandra.com/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
 <script src="https://udaychandra.com/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
 <script id="wp-i18n-js-after">
-    wp.i18n.setLocaleData({
-        'text direction\u0004ltr': ['ltr']
-    });
+wp.i18n.setLocaleData({
+    'text direction\u0004ltr': ['ltr']
+});
 </script>
 <script src="https://udaychandra.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.0" id="swv-js"></script>
 <script id="contact-form-7-js-before">
-    var wpcf7 = {
-        "api": {
-            "root": "https:\/\/udaychandra.com\/wp-json\/",
-            "namespace": "contact-form-7\/v1"
-        }
-    };
+var wpcf7 = {
+    "api": {
+        "root": "https:\/\/udaychandra.com\/wp-json\/",
+        "namespace": "contact-form-7\/v1"
+    }
+};
 </script>
 <script src="https://udaychandra.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.0" id="contact-form-7-js"></script>
 <script id="twenty-twenty-one-ie11-polyfills-js-after">
-    (Element.prototype.matches && Element.prototype.closest && window.NodeList && NodeList.prototype.forEach) || document.write('<script src="https://udaychandra.com/wp-content/themes/Udaychandra/assets/js/polyfills.js?ver=1.7"></scr' + 'ipt>');
+(Element.prototype.matches && Element.prototype.closest && window.NodeList && NodeList.prototype.forEach) || document.write('<script src="https://udaychandra.com/wp-content/themes/Udaychandra/assets/js/polyfills.js?ver=1.7"></scr' + 'ipt>');
 </script>
 <script src="https://udaychandra.com/wp-content/themes/Udaychandra/assets/js/responsive-embeds.js?ver=1.7" id="twenty-twenty-one-responsive-embeds-script-js"></script>
 <script id="ctf_scripts-js-extra">
-    var ctf = {
-        "ajax_url": "https:\/\/udaychandra.com\/wp-admin\/admin-ajax.php"
-    };
+var ctf = {
+    "ajax_url": "https:\/\/udaychandra.com\/wp-admin\/admin-ajax.php"
+};
 </script>
 <script src="https://udaychandra.com/wp-content/plugins/custom-twitter-feeds/js/ctf-scripts.min.js?ver=2.0.3" id="ctf_scripts-js"></script>
 <script>
-    /(trident|msie)/i.test(navigator.userAgent) && document.getElementById && window.addEventListener && window.addEventListener("hashchange", (function() {
-        var t, e = location.hash.substring(1);
-        /^[A-z0-9_-]+$/.test(e) && (t = document.getElementById(e)) && (/^(?:a|select|input|button|textarea)$/i.test(t.tagName) || (t.tabIndex = -1),
-        t.focus())
-    }
-    ), !1);
+/(trident|msie)/i.test(navigator.userAgent) && document.getElementById && window.addEventListener && window.addEventListener("hashchange", (function() {
+    var t, e = location.hash.substring(1);
+    /^[A-z0-9_-]+$/.test(e) && (t = document.getElementById(e)) && (/^(?:a|select|input|button|textarea)$/i.test(t.tagName) || (t.tabIndex = -1),
+    t.focus())
+}
+), !1);
 </script>
-</body></html>
+
+<!-- Code injected by live-server -->
+<script>
+// <![CDATA[  <-- For SVG support
+if ('WebSocket' in window) {
+    (function () {
+        function refreshCSS() {
+            var sheets = [].slice.call(document.getElementsByTagName("link"));
+            var head = document.getElementsByTagName("head")[0];
+            for (var i = 0; i < sheets.length; ++i) {
+                var elem = sheets[i];
+                var parent = elem.parentElement || head;
+                parent.removeChild(elem);
+                var rel = elem.rel;
+                if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+                    var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+                    elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+                }
+                parent.appendChild(elem);
+            }
+        }
+        var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+        var address = protocol + window.location.host + window.location.pathname + '/ws';
+        var socket = new WebSocket(address);
+        socket.onmessage = function (msg) {
+            if (msg.data == 'reload') window.location.reload();
+            else if (msg.data == 'refreshcss') refreshCSS();
+        };
+        if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+            console.log('Live reload enabled.');
+            sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+        }
+    })();
+}
+else {
+    console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+}
+// ]]>
+</script>
+
+</body></html> 
